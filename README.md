@@ -108,3 +108,7 @@ python scripts/update_images.py "D:\你的仓库\HowToCook\dishes"
 ## 主题风格
 
 蜡笔小新风格：饱和蜡笔色 + 暖棕粗描边 + 贴纸投影，主题色在 `miniprogram/app.wxss` 的 CSS 变量中集中管理，便于整体换肤。
+
+## 致谢
+
+本小程序的菜谱数据（约 360 道菜）全部来自开源项目 [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)。感谢原作者及所有贡献者持续整理、维护这份详实的「程序员做饭指南」，让这份菜谱得以被更多人方便地使用。小程序仅在此基础上做了数据解析、微信端适配与界面二次开发，菜谱内容的版权归原作者所有。
