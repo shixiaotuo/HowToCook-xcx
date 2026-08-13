@@ -1,4 +1,6 @@
-# 程序员做饭指南 · 小程序
+# 程序猿做饭指南
+
+> 🚧 还在测试，待正式上线
 
 基于开源菜谱仓库 [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)（约 360 道菜）实现的微信小程序。
 
