@@ -1,0 +1,41 @@
+<view class="page theme-{{theme}}">
+  <view class="status-spacer" style="height:{{statusBarHeight}}px;"></view>
+  <theme-picker bind:change="onThemeChange" />
+  <view wx:if="{{loadError}}" class="load-error">⚠️ 加载失败：{{loadError}}</view>
+  <!-- 头部 -->
+  <view class="hero card">
+    <view class="hero-emoji">👨‍🍳</view>
+    <view class="hero-title">程序员做饭指南</view>
+    <view class="hero-sub">{{dailyQuote}}</view>
+    <view class="search-row">
+      <input class="search-input" placeholder="搜个菜名试试，如 可乐鸡翅" value="{{keyword}}" bindinput="onSearchInput" confirm-type="search" bindconfirm="onSearch" />
+      <view class="btn search-btn" bindtap="onSearch">搜索</view>
+    </view>
+  </view>
+
+  <!-- 两大决策入口 -->
+  <view class="duo">
+    <view class="duo-card card duo-coral" bindtap="goRandom">
+      <view class="duo-emoji">🤔</view>
+      <view class="duo-title">不知道吃什么</view>
+      <view class="duo-desc">选好人数，一键开饭</view>
+    </view>
+    <view class="duo-card card duo-green" bindtap="goPlan">
+      <view class="duo-emoji">📅</view>
+      <view class="duo-title">一周膳食计划</view>
+      <view class="duo-desc">忌口过敏原全照顾</view>
+    </view>
+  </view>
+
+  <!-- 分类浏览 -->
+  <view class="section-title"><text class="emoji">📚</text>按分类挑菜（共 {{total}} 道）</view>
+  <view class="cat-grid">
+    <view class="cat-cell" wx:for="{{categories}}" wx:key="key" bindtap="goCategory" data-key="{{item.key}}" data-name="{{item.name}}">
+      <view class="cat-badge" style="background:{{item.color}};border-color:{{item.color}}">{{item.emoji}}</view>
+      <view class="cat-name">{{item.name}}</view>
+      <view class="cat-count">{{item.count}} 道</view>
+    </view>
+  </view>
+
+  <view class="all-link center mt" bindtap="goAll">查看全部菜谱 →</view>
+</view>

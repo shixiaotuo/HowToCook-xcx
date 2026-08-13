@@ -1,0 +1,12 @@
+<view class="rc-card card" bindtap="onTap" hover-class="rc-hover">
+  <image wx:if="{{recipe.cover}}" class="rc-cover" src="/{{recipe.cover}}" mode="aspectFill" />
+  <view class="rc-head">
+    <text class="rc-name">{{recipe.name}}</text>
+    <text class="rc-tag" style="background:{{tagColor || ''}};color:{{tagText || ''}}">{{recipe.type === 'tip' ? '💡 小知识' : recipe.categoryName}}</text>
+  </view>
+  <view class="rc-meta">
+    <text wx:if="{{recipe.difficulty}}">难度 {{recipe.difficulty}}</text>
+    <text wx:if="{{recipe.calories}}" class="rc-cal">· {{recipe.calories}} 千卡</text>
+  </view>
+  <view class="rc-summary" wx:if="{{recipe.summary}}">{{recipe.summary}}</view>
+</view>

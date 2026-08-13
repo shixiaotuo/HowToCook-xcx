@@ -1,0 +1,61 @@
+<view class="page theme-{{theme}}">
+  <view class="nav-header" style="padding-top:{{statusBarHeight}}px;">
+    <view class="nav-back" bindtap="goBack">←</view>
+    <view class="nav-title">{{navTitle}}</view>
+  </view>
+
+  <block wx:if="{{recipe}}">
+    <!-- 头部 -->
+    <view class="head card" style="border-color:{{color}}">
+      <view class="head-top">
+        <text class="title">{{recipe.name}}</text>
+        <text class="tag" style="background:{{color}};color:{{colorText}}">{{recipe.categoryName}}</text>
+      </view>
+      <view class="meta">
+        <text wx:if="{{recipe.difficulty}}">🔥 难度 {{recipe.difficulty}}</text>
+        <text wx:if="{{recipe.calories}}" class="meta-cal">⚡ {{recipe.calories}} 千卡</text>
+      </view>
+      <view class="summary" wx:if="{{recipe.summary && !isTip}}">{{recipe.summary}}</view>
+    </view>
+
+    <!-- 厨房小知识正文 -->
+    <view wx:if="{{isTip}}" class="tip-box card">
+      <view class="tip-badge">💡 厨房小知识</view>
+      <rich-text class="rich" nodes="{{richContent}}"></rich-text>
+    </view>
+
+    <!-- 菜谱内容 -->
+    <block wx:else>
+      <image wx:if="{{recipe.images.length}}" class="hero" src="/{{recipe.images[0]}}" mode="aspectFill" />
+
+      <view class="section-title"><text class="emoji">🧺</text>必备原料和工具</view>
+      <view class="box card">
+        <view class="ing" wx:for="{{recipe.ingredients}}" wx:key="*this">· {{item}}</view>
+      </view>
+
+      <view class="section-title"><text class="emoji">⚖️</text>用量计算</view>
+      <view class="box card">
+        <view class="ing" wx:for="{{recipe.ingredientDetails}}" wx:key="*this">· {{item}}</view>
+      </view>
+
+      <view class="section-title"><text class="emoji">👩‍🍳</text>操作步骤</view>
+      <view class="box card">
+        <view class="step" wx:for="{{recipe.steps}}" wx:key="index">
+          <view class="step-no">{{index+1}}</view>
+          <view class="step-text">{{item}}</view>
+        </view>
+      </view>
+
+      <block wx:if="{{recipe.images.length}}">
+        <view class="section-title"><text class="emoji">🖼️</text>菜品实拍</view>
+        <view class="gallery">
+          <image wx:for="{{recipe.images}}" wx:key="*this" class="gimg" src="/{{item}}" mode="aspectFill" bindtap="previewImage" data-src="/{{item}}" />
+        </view>
+      </block>
+    </block>
+
+    <view class="src muted center">内容来源：HowToCook 开源项目</view>
+  </block>
+
+  <view wx:else class="center muted" style="padding:60rpx 0;">加载中…</view>
+</view>

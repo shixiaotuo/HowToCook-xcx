@@ -1,0 +1,512 @@
+{
+  "aquatic/小龙虾": [
+    "assets/recipes/aquatic/小龙虾/cover.jpg"
+  ],
+  "aquatic/干煎阿根廷红虾": [
+    "assets/recipes/aquatic/干煎阿根廷红虾/cover.jpg"
+  ],
+  "aquatic/油焖大虾": [
+    "assets/recipes/aquatic/油焖大虾/cover.jpg"
+  ],
+  "aquatic/清蒸鲈鱼": [
+    "assets/recipes/aquatic/清蒸鲈鱼/cover.jpg"
+  ],
+  "aquatic/白灼虾": [
+    "assets/recipes/aquatic/白灼虾/cover.jpg"
+  ],
+  "aquatic/糖醋鲤鱼": [
+    "assets/recipes/aquatic/糖醋鲤鱼/cover.jpg"
+  ],
+  "aquatic/芥末黄油罗氏虾": [
+    "assets/recipes/aquatic/芥末黄油罗氏虾/cover.jpg"
+  ],
+  "aquatic/葱烧海参": [
+    "assets/recipes/aquatic/葱烧海参/cover.jpg"
+  ],
+  "aquatic/蒜蓉虾": [
+    "assets/recipes/aquatic/蒜蓉虾/cover.jpg"
+  ],
+  "aquatic/蒜香黄油虾": [
+    "assets/recipes/aquatic/蒜香黄油虾/cover.jpg"
+  ],
+  "aquatic/蛏抱蛋": [
+    "assets/recipes/aquatic/蛏抱蛋/cover.jpg"
+  ],
+  "aquatic/阳朔啤酒鱼": [
+    "assets/recipes/aquatic/阳朔啤酒鱼/cover.jpg"
+  ],
+  "aquatic/香煎翘嘴鱼": [
+    "assets/recipes/aquatic/香煎翘嘴鱼/cover.jpg"
+  ],
+  "aquatic/鲤鱼炖白菜": [
+    "assets/recipes/aquatic/鲤鱼炖白菜/cover.jpg"
+  ],
+  "aquatic/鳊鱼炖豆腐": [
+    "assets/recipes/aquatic/鳊鱼炖豆腐/cover.jpg"
+  ],
+  "aquatic/黄油煎虾": [
+    "assets/recipes/aquatic/黄油煎虾/cover.jpg"
+  ],
+  "breakfast/苏格兰蛋": [
+    "assets/recipes/breakfast/苏格兰蛋/cover.jpg"
+  ],
+  "condiment/油泼辣子": [
+    "assets/recipes/condiment/油泼辣子/cover.jpg"
+  ],
+  "condiment/草莓酱": [
+    "assets/recipes/condiment/草莓酱/cover.jpg"
+  ],
+  "condiment/蔗糖糖浆": [
+    "assets/recipes/condiment/蔗糖糖浆/cover.jpg"
+  ],
+  "dessert/反沙芋头": [
+    "assets/recipes/dessert/反沙芋头/cover.jpg"
+  ],
+  "dessert/咖啡椰奶冻": [
+    "assets/recipes/dessert/咖啡椰奶冻/cover.jpg"
+  ],
+  "dessert/戚风蛋糕": [
+    "assets/recipes/dessert/戚风蛋糕/cover.jpg"
+  ],
+  "dessert/提拉米苏": [
+    "assets/recipes/dessert/提拉米苏/cover.jpg"
+  ],
+  "dessert/无厨师机蜂蜜面包": [
+    "assets/recipes/dessert/无厨师机蜂蜜面包/cover.jpg"
+  ],
+  "dessert/炸鲜奶": [
+    "assets/recipes/dessert/炸鲜奶/cover.jpg"
+  ],
+  "dessert/烤箱版巴斯克芝士蛋糕": [
+    "assets/recipes/dessert/烤箱版巴斯克芝士蛋糕/cover.jpg"
+  ],
+  "dessert/烤蛋挞": [
+    "assets/recipes/dessert/烤蛋挞/cover.jpg"
+  ],
+  "dessert/玛格丽特饼干": [
+    "assets/recipes/dessert/玛格丽特饼干/cover.jpg"
+  ],
+  "dessert/芋泥雪媚娘": [
+    "assets/recipes/dessert/芋泥雪媚娘/cover.jpg"
+  ],
+  "dessert/英式司康": [
+    "assets/recipes/dessert/英式司康/cover.jpg"
+  ],
+  "dessert/酸奶意式奶冻": [
+    "assets/recipes/dessert/酸奶意式奶冻/cover.jpg"
+  ],
+  "dessert/雪花酥": [
+    "assets/recipes/dessert/雪花酥/cover.jpg"
+  ],
+  "dessert/龟苓膏": [
+    "assets/recipes/dessert/龟苓膏/cover.jpg"
+  ],
+  "drink/奇异果菠菜特调": [
+    "assets/recipes/drink/奇异果菠菜特调/cover.jpg"
+  ],
+  "drink/柠檬水": [
+    "assets/recipes/drink/柠檬水/cover.jpg"
+  ],
+  "drink/泰国手标红茶": [
+    "assets/recipes/drink/泰国手标红茶/cover.jpg"
+  ],
+  "drink/海边落日": [
+    "assets/recipes/drink/海边落日/cover.jpg"
+  ],
+  "drink/百香果橙子特调": [
+    "assets/recipes/drink/百香果橙子特调/cover.jpg"
+  ],
+  "drink/砂糖椰子冰沙": [
+    "assets/recipes/drink/砂糖椰子冰沙/cover.jpg"
+  ],
+  "drink/耙耙柑茶": [
+    "assets/recipes/drink/耙耙柑茶/cover.jpg"
+  ],
+  "drink/菠萝咖啡特调": [
+    "assets/recipes/drink/菠萝咖啡特调/cover.jpg"
+  ],
+  "drink/酒酿醪糟": [
+    "assets/recipes/drink/酒酿醪糟/cover.jpg"
+  ],
+  "drink/酸梅汤": [
+    "assets/recipes/drink/酸梅汤/cover.jpg"
+  ],
+  "drink/金汤力": [
+    "assets/recipes/drink/金汤力/cover.jpg"
+  ],
+  "drink/金菲士": [
+    "assets/recipes/drink/金菲士/cover.jpg"
+  ],
+  "meat_dish/农家一碗香": [
+    "assets/recipes/meat_dish/农家一碗香/cover.jpg"
+  ],
+  "meat_dish/冬瓜酿肉": [
+    "assets/recipes/meat_dish/冬瓜酿肉/cover.jpg"
+  ],
+  "meat_dish/凉拌鸡丝": [
+    "assets/recipes/meat_dish/凉拌鸡丝/cover.jpg"
+  ],
+  "meat_dish/卤菜": [
+    "assets/recipes/meat_dish/卤菜/cover.jpg"
+  ],
+  "meat_dish/口水鸡": [
+    "assets/recipes/meat_dish/口水鸡/cover.jpg"
+  ],
+  "meat_dish/台式卤肉饭": [
+    "assets/recipes/meat_dish/台式卤肉饭/cover.jpg"
+  ],
+  "meat_dish/咖喱肥牛": [
+    "assets/recipes/meat_dish/咖喱肥牛/cover.jpg"
+  ],
+  "meat_dish/啤酒鸭": [
+    "assets/recipes/meat_dish/啤酒鸭/cover.jpg"
+  ],
+  "meat_dish/回锅肉": [
+    "assets/recipes/meat_dish/回锅肉/cover.jpg"
+  ],
+  "meat_dish/奶酪培根通心粉": [
+    "assets/recipes/meat_dish/奶酪培根通心粉/cover.jpg"
+  ],
+  "meat_dish/姜炒鸡": [
+    "assets/recipes/meat_dish/姜炒鸡/cover.jpg"
+  ],
+  "meat_dish/宫保鸡丁": [
+    "assets/recipes/meat_dish/宫保鸡丁/cover.jpg"
+  ],
+  "meat_dish/小炒鸡肝": [
+    "assets/recipes/meat_dish/小炒鸡肝/cover.jpg"
+  ],
+  "meat_dish/小炒黄牛肉": [
+    "assets/recipes/meat_dish/小炒黄牛肉/cover.jpg"
+  ],
+  "meat_dish/尖叫牛蛙": [
+    "assets/recipes/meat_dish/尖叫牛蛙/cover.jpg"
+  ],
+  "meat_dish/巴基斯坦牛肉咖喱": [
+    "assets/recipes/meat_dish/巴基斯坦牛肉咖喱/cover.jpg"
+  ],
+  "meat_dish/干煸仔鸡": [
+    "assets/recipes/meat_dish/干煸仔鸡/cover.jpg"
+  ],
+  "meat_dish/广式萝卜牛腩": [
+    "assets/recipes/meat_dish/广式萝卜牛腩/cover.jpg"
+  ],
+  "meat_dish/徽派红烧肉": [
+    "assets/recipes/meat_dish/徽派红烧肉/cover.jpg"
+  ],
+  "meat_dish/新疆大盘鸡": [
+    "assets/recipes/meat_dish/新疆大盘鸡/cover.jpg"
+  ],
+  "meat_dish/无骨鸡爪": [
+    "assets/recipes/meat_dish/无骨鸡爪/cover.jpg"
+  ],
+  "meat_dish/柱候牛腩": [
+    "assets/recipes/meat_dish/柱候牛腩/cover.jpg"
+  ],
+  "meat_dish/桂林十八酿": [
+    "assets/recipes/meat_dish/桂林十八酿/cover.jpg"
+  ],
+  "meat_dish/梅菜扣肉": [
+    "assets/recipes/meat_dish/梅菜扣肉/cover.jpg"
+  ],
+  "meat_dish/水煮牛肉": [
+    "assets/recipes/meat_dish/水煮牛肉/cover.jpg"
+  ],
+  "meat_dish/淄博烧烤": [
+    "assets/recipes/meat_dish/淄博烧烤/cover.jpg"
+  ],
+  "meat_dish/清蒸鳜鱼": [
+    "assets/recipes/meat_dish/清蒸鳜鱼/cover.jpg"
+  ],
+  "meat_dish/湖南家常红烧肉": [
+    "assets/recipes/meat_dish/湖南家常红烧肉/cover.jpg"
+  ],
+  "meat_dish/湘祁米夫鸭": [
+    "assets/recipes/meat_dish/湘祁米夫鸭/cover.jpg"
+  ],
+  "meat_dish/澳门湿版免治牛肉饭": [
+    "assets/recipes/meat_dish/澳门湿版免治牛肉饭/cover.jpg"
+  ],
+  "meat_dish/牛排": [
+    "assets/recipes/meat_dish/牛排/cover.jpg"
+  ],
+  "meat_dish/猪皮冻": [
+    "assets/recipes/meat_dish/猪皮冻/cover.jpg"
+  ],
+  "meat_dish/田螺酿": [
+    "assets/recipes/meat_dish/田螺酿/cover.jpg"
+  ],
+  "meat_dish/瘦肉土豆片": [
+    "assets/recipes/meat_dish/瘦肉土豆片/cover.jpg"
+  ],
+  "meat_dish/糖醋排骨": [
+    "assets/recipes/meat_dish/糖醋排骨/cover.jpg"
+  ],
+  "meat_dish/红烧猪蹄": [
+    "assets/recipes/meat_dish/红烧猪蹄/cover.jpg"
+  ],
+  "meat_dish/羊排焖面": [
+    "assets/recipes/meat_dish/羊排焖面/cover.jpg"
+  ],
+  "meat_dish/老妈蹄花": [
+    "assets/recipes/meat_dish/老妈蹄花/cover.jpg"
+  ],
+  "meat_dish/老式锅包肉": [
+    "assets/recipes/meat_dish/老式锅包肉/cover.jpg"
+  ],
+  "meat_dish/芥末罗氏虾": [
+    "assets/recipes/meat_dish/芥末罗氏虾/cover.jpg"
+  ],
+  "meat_dish/茭白炒肉": [
+    "assets/recipes/meat_dish/茭白炒肉/cover.jpg"
+  ],
+  "meat_dish/荔枝肉": [
+    "assets/recipes/meat_dish/荔枝肉/cover.jpg"
+  ],
+  "meat_dish/荷兰豆炒腊肠": [
+    "assets/recipes/meat_dish/荷兰豆炒腊肠/cover.jpg"
+  ],
+  "meat_dish/西红柿土豆炖牛肉": [
+    "assets/recipes/meat_dish/西红柿土豆炖牛肉/cover.jpg"
+  ],
+  "meat_dish/豆豉鲮鱼油麦菜": [
+    "assets/recipes/meat_dish/豆豉鲮鱼油麦菜/cover.jpg"
+  ],
+  "meat_dish/豉汁蒸白鱔": [
+    "assets/recipes/meat_dish/豉汁蒸白鱔/cover.jpg"
+  ],
+  "meat_dish/贵州辣子鸡": [
+    "assets/recipes/meat_dish/贵州辣子鸡/cover.jpg"
+  ],
+  "meat_dish/酱排骨": [
+    "assets/recipes/meat_dish/酱排骨/cover.jpg"
+  ],
+  "meat_dish/酱牛肉": [
+    "assets/recipes/meat_dish/酱牛肉/cover.jpg"
+  ],
+  "meat_dish/醉排骨": [
+    "assets/recipes/meat_dish/醉排骨/cover.jpg"
+  ],
+  "meat_dish/青椒酿": [
+    "assets/recipes/meat_dish/青椒酿/cover.jpg"
+  ],
+  "meat_dish/香干芹菜炒肉": [
+    "assets/recipes/meat_dish/香干芹菜炒肉/cover.jpg"
+  ],
+  "meat_dish/香煎五花肉": [
+    "assets/recipes/meat_dish/香煎五花肉/cover.jpg"
+  ],
+  "meat_dish/香菇滑鸡": [
+    "assets/recipes/meat_dish/香菇滑鸡/cover.jpg"
+  ],
+  "meat_dish/香辣鸡爪煲": [
+    "assets/recipes/meat_dish/香辣鸡爪煲/cover.jpg"
+  ],
+  "meat_dish/鱼香茄子": [
+    "assets/recipes/meat_dish/鱼香茄子/cover.jpg"
+  ],
+  "meat_dish/麻婆豆腐": [
+    "assets/recipes/meat_dish/麻婆豆腐/cover.jpg"
+  ],
+  "meat_dish/黑椒牛柳": [
+    "assets/recipes/meat_dish/黑椒牛柳/cover.jpg"
+  ],
+  "meat_dish/黔式腊肠娃娃菜": [
+    "assets/recipes/meat_dish/黔式腊肠娃娃菜/cover.jpg"
+  ],
+  "semi-finished/懒人蛋挞": [
+    "assets/recipes/semi-finished/懒人蛋挞/cover.jpg"
+  ],
+  "semi-finished/炸薯条": [
+    "assets/recipes/semi-finished/炸薯条/cover.jpg"
+  ],
+  "semi-finished/空气炸锅羊排": [
+    "assets/recipes/semi-finished/空气炸锅羊排/cover.jpg"
+  ],
+  "semi-finished/空气炸锅鸡翅中": [
+    "assets/recipes/semi-finished/空气炸锅鸡翅中/cover.jpg"
+  ],
+  "semi-finished/速冻汤圆": [
+    "assets/recipes/semi-finished/速冻汤圆/cover.jpg"
+  ],
+  "soup/勾芡香菇汤": [
+    "assets/recipes/soup/勾芡香菇汤/cover.jpg"
+  ],
+  "soup/昂刺鱼豆腐汤": [
+    "assets/recipes/soup/昂刺鱼豆腐汤/cover.jpg"
+  ],
+  "soup/朱雀汤": [
+    "assets/recipes/soup/朱雀汤/cover.jpg"
+  ],
+  "soup/玉米排骨汤": [
+    "assets/recipes/soup/玉米排骨汤/cover.jpg"
+  ],
+  "soup/羊肉汤": [
+    "assets/recipes/soup/羊肉汤/cover.jpg"
+  ],
+  "soup/菌菇炖乳鸽": [
+    "assets/recipes/soup/菌菇炖乳鸽/cover.jpg"
+  ],
+  "soup/银耳莲子粥": [
+    "assets/recipes/soup/银耳莲子粥/cover.jpg"
+  ],
+  "soup/陈皮排骨汤": [
+    "assets/recipes/soup/陈皮排骨汤/cover.jpg"
+  ],
+  "staple/凉粉": [
+    "assets/recipes/staple/凉粉/cover.jpg"
+  ],
+  "staple/基础牛奶面包": [
+    "assets/recipes/staple/基础牛奶面包/cover.jpg"
+  ],
+  "staple/微波炉腊肠煲仔饭": [
+    "assets/recipes/staple/微波炉腊肠煲仔饭/cover.jpg"
+  ],
+  "staple/意式肉酱面": [
+    "assets/recipes/staple/意式肉酱面/cover.jpg"
+  ],
+  "staple/扬州炒饭": [
+    "assets/recipes/staple/扬州炒饭/cover.jpg"
+  ],
+  "staple/披萨饼皮": [
+    "assets/recipes/staple/披萨饼皮/cover.jpg"
+  ],
+  "staple/日式咖喱饭": [
+    "assets/recipes/staple/日式咖喱饭/cover.jpg"
+  ],
+  "staple/日式肥牛丼饭": [
+    "assets/recipes/staple/日式肥牛丼饭/cover.jpg"
+  ],
+  "staple/河南蒸面条": [
+    "assets/recipes/staple/河南蒸面条/cover.jpg"
+  ],
+  "staple/火腿饭团": [
+    "assets/recipes/staple/火腿饭团/cover.jpg"
+  ],
+  "staple/炒凉粉": [
+    "assets/recipes/staple/炒凉粉/cover.jpg"
+  ],
+  "staple/炒意大利面": [
+    "assets/recipes/staple/炒意大利面/cover.jpg"
+  ],
+  "staple/炒方便面": [
+    "assets/recipes/staple/炒方便面/cover.jpg"
+  ],
+  "staple/烙饼": [
+    "assets/recipes/staple/烙饼/cover.jpg"
+  ],
+  "staple/电饭煲三文鱼炊饭": [
+    "assets/recipes/staple/电饭煲三文鱼炊饭/cover.jpg"
+  ],
+  "staple/空气炸锅照烧鸡饭": [
+    "assets/recipes/staple/空气炸锅照烧鸡饭/cover.jpg"
+  ],
+  "staple/老友猪肉粉": [
+    "assets/recipes/staple/老友猪肉粉/cover.jpg"
+  ],
+  "staple/茄子肉煎饼": [
+    "assets/recipes/staple/茄子肉煎饼/cover.jpg"
+  ],
+  "staple/西红柿鸡蛋挂面": [
+    "assets/recipes/staple/西红柿鸡蛋挂面/cover.jpg"
+  ],
+  "staple/酱拌荞麦面": [
+    "assets/recipes/staple/酱拌荞麦面/cover.jpg"
+  ],
+  "staple/陕西油泼面": [
+    "assets/recipes/staple/陕西油泼面/cover.jpg"
+  ],
+  "staple/韩式拌饭": [
+    "assets/recipes/staple/韩式拌饭/cover.jpg"
+  ],
+  "staple/鲣鱼海苔玉米饭": [
+    "assets/recipes/staple/鲣鱼海苔玉米饭/cover.jpg"
+  ],
+  "vegetable_dish/上汤娃娃菜": [
+    "assets/recipes/vegetable_dish/上汤娃娃菜/cover.jpg"
+  ],
+  "vegetable_dish/乾隆白菜": [
+    "assets/recipes/vegetable_dish/乾隆白菜/cover.jpg"
+  ],
+  "vegetable_dish/凉拌木耳": [
+    "assets/recipes/vegetable_dish/凉拌木耳/cover.jpg"
+  ],
+  "vegetable_dish/凉拌莴笋": [
+    "assets/recipes/vegetable_dish/凉拌莴笋/cover.jpg"
+  ],
+  "vegetable_dish/包菜炒鸡蛋粉丝": [
+    "assets/recipes/vegetable_dish/包菜炒鸡蛋粉丝/cover.jpg"
+  ],
+  "vegetable_dish/地三鲜": [
+    "assets/recipes/vegetable_dish/地三鲜/cover.jpg"
+  ],
+  "vegetable_dish/小炒藕丁": [
+    "assets/recipes/vegetable_dish/小炒藕丁/cover.jpg"
+  ],
+  "vegetable_dish/干锅花菜": [
+    "assets/recipes/vegetable_dish/干锅花菜/cover.jpg"
+  ],
+  "vegetable_dish/手撕包菜": [
+    "assets/recipes/vegetable_dish/手撕包菜/cover.jpg"
+  ],
+  "vegetable_dish/拔丝土豆": [
+    "assets/recipes/vegetable_dish/拔丝土豆/cover.jpg"
+  ],
+  "vegetable_dish/椒盐玉米": [
+    "assets/recipes/vegetable_dish/椒盐玉米/cover.jpg"
+  ],
+  "vegetable_dish/榄菜肉末四季豆": [
+    "assets/recipes/vegetable_dish/榄菜肉末四季豆/cover.jpg"
+  ],
+  "vegetable_dish/洋葱炒鸡蛋": [
+    "assets/recipes/vegetable_dish/洋葱炒鸡蛋/cover.jpg"
+  ],
+  "vegetable_dish/炒滑蛋": [
+    "assets/recipes/vegetable_dish/炒滑蛋/cover.jpg"
+  ],
+  "vegetable_dish/烤茄子": [
+    "assets/recipes/vegetable_dish/烤茄子/cover.jpg"
+  ],
+  "vegetable_dish/白灼菜心": [
+    "assets/recipes/vegetable_dish/白灼菜心/cover.jpg"
+  ],
+  "vegetable_dish/糖拌西红柿": [
+    "assets/recipes/vegetable_dish/糖拌西红柿/cover.jpg"
+  ],
+  "vegetable_dish/红烧冬瓜": [
+    "assets/recipes/vegetable_dish/红烧冬瓜/cover.jpg"
+  ],
+  "vegetable_dish/芹菜拌茶树菇": [
+    "assets/recipes/vegetable_dish/芹菜拌茶树菇/cover.jpg"
+  ],
+  "vegetable_dish/莴笋叶煎饼": [
+    "assets/recipes/vegetable_dish/莴笋叶煎饼/cover.jpg"
+  ],
+  "vegetable_dish/菠菜炒鸡蛋": [
+    "assets/recipes/vegetable_dish/菠菜炒鸡蛋/cover.jpg"
+  ],
+  "vegetable_dish/蒜蓉炒芹菜": [
+    "assets/recipes/vegetable_dish/蒜蓉炒芹菜/cover.jpg"
+  ],
+  "vegetable_dish/蒜蓉空心菜": [
+    "assets/recipes/vegetable_dish/蒜蓉空心菜/cover.jpg"
+  ],
+  "vegetable_dish/虎皮青椒": [
+    "assets/recipes/vegetable_dish/虎皮青椒/cover.jpg"
+  ],
+  "vegetable_dish/蚝油三鲜菇": [
+    "assets/recipes/vegetable_dish/蚝油三鲜菇/cover.jpg"
+  ],
+  "vegetable_dish/西红柿豆腐汤羹": [
+    "assets/recipes/vegetable_dish/西红柿豆腐汤羹/cover.jpg"
+  ],
+  "vegetable_dish/西葫芦炒鸡蛋": [
+    "assets/recipes/vegetable_dish/西葫芦炒鸡蛋/cover.jpg"
+  ],
+  "vegetable_dish/话梅煮毛豆": [
+    "assets/recipes/vegetable_dish/话梅煮毛豆/cover.jpg"
+  ],
+  "vegetable_dish/鸡蛋羹": [
+    "assets/recipes/vegetable_dish/鸡蛋羹/cover.jpg"
+  ]
+}

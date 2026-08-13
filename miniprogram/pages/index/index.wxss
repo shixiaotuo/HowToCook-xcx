@@ -1,0 +1,45 @@
+.page { padding: 24rpx; }
+.load-error {
+  background: #fff3f0; border: 4rpx solid #ff6f61; color: #c0392b;
+  border-radius: 16rpx; padding: 20rpx 24rpx; font-size: 26rpx; line-height: 1.5;
+  margin-bottom: 20rpx; word-break: break-all;
+}
+.hero { background: var(--accent-soft); text-align: center; padding: 18rpx 22rpx; }
+.hero-emoji { font-size: 56rpx; line-height: 1.1; }
+.hero-title { font-size: 38rpx; font-weight: 900; color: var(--text); margin-top: 4rpx; letter-spacing: 1rpx; }
+.hero-sub { font-size: 23rpx; color: var(--text-soft); margin: 6rpx 0 14rpx; }
+.search-row { display: flex; gap: 14rpx; align-items: center; }
+.search-input {
+  flex: 1; background: var(--surface); border: 4rpx solid var(--border); border-radius: 999rpx;
+  padding: 11rpx 24rpx; font-size: 26rpx; box-shadow: 3rpx 3rpx 0 var(--border);
+}
+.search-btn { flex-shrink: 0; padding: 12rpx 30rpx; font-size: 26rpx; }
+/* 暗夜模式：实心亮色按钮压在深 hero 上太跳，改为同色系暗底+强调色描边文字的「幽灵」样式，更协调 */
+.theme-dark .search-btn {
+  background: var(--surface-2);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.duo { display: flex; gap: 20rpx; margin-top: 18rpx; }
+.duo-card { flex: 1; padding: 18rpx; text-align: center; }
+.duo-coral { background: var(--accent-soft); }
+.duo-green { background: var(--surface-2); }
+.duo-emoji { font-size: 54rpx; }
+.duo-title { font-size: 30rpx; font-weight: 800; color: var(--text); margin-top: 4rpx; }
+.duo-desc { font-size: 20rpx; color: var(--text-soft); margin-top: 2rpx; }
+
+.section-title { margin: 6rpx 0 12rpx; }
+.cat-grid { display: flex; flex-wrap: wrap; gap: 16rpx; margin-top: 4rpx; }
+.cat-cell {
+  width: calc((100% - 48rpx) / 4);
+  background: var(--surface); border: 4rpx solid var(--border); border-radius: 24rpx;
+  box-shadow: 4rpx 4rpx 0 var(--border); padding: 14rpx 6rpx; text-align: center;
+}
+.cat-badge {
+  width: 64rpx; height: 64rpx; line-height: 64rpx; border-radius: 50%;
+  border: 3rpx solid var(--border); font-size: 34rpx; margin: 0 auto 8rpx;
+}
+.cat-name { font-size: 24rpx; font-weight: 700; color: var(--text); }
+.cat-count { font-size: 20rpx; color: var(--text-soft); }
+.all-link { color: var(--accent); font-weight: 700; font-size: 28rpx; }

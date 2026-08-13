@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/recipes/recipes",
+    "pages/detail/detail",
+    "pages/random/random",
+    "pages/plan/plan"
+  ],
+  "window": {
+    "navigationBarTitleText": "程序员做饭指南",
+    "navigationBarBackgroundColor": "#FFF8EC",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFF8EC",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#8A6D5B",
+    "selectedColor": "#FF6F61",
+    "backgroundColor": "#FFFDF7",
+    "borderStyle": "white",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "首页" },
+      { "pagePath": "pages/random/random", "text": "吃什么" },
+      { "pagePath": "pages/plan/plan", "text": "周计划" }
+    ]
+  },
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents",
+  "sitemapLocation": "sitemap.json"
+}

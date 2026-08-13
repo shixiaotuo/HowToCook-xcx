@@ -1,0 +1,75 @@
+<view class="page theme-{{theme}}">
+  <view class="status-spacer" style="height:{{statusBarHeight}}px;"></view>
+  <theme-picker bind:change="onThemeChange" />
+
+  <view class="hero card">
+    <view class="hero-emoji">📅</view>
+    <view class="hero-title">一周膳食计划</view>
+    <view class="hero-sub">忌口、过敏原、人数全照顾，七天不重样</view>
+  </view>
+
+  <view class="section-title"><text class="emoji">👥</text>用餐人数</view>
+  <view class="card stepper-row">
+    <view class="step-btn" bindtap="changePeople" data-delta="-1">−</view>
+    <view class="step-num">{{people}} 人</view>
+    <view class="step-btn" bindtap="changePeople" data-delta="1">＋</view>
+  </view>
+
+  <view class="section-title"><text class="emoji">⚠️</text>过敏原（可多选）</view>
+  <view class="allergen-box">
+    <view class="allergen-tip">点选你过敏的食材，系统会自动避开相关菜谱</view>
+    <view class="chips">
+      <view
+        class="chip {{item.on ? 'chip-on' : ''}}"
+        wx:for="{{allergenView}}"
+        wx:key="name"
+        bindtap="toggleAllergen"
+        data-key="{{item.name}}"
+      >{{item.name}}<text class="chip-check" wx:if="{{item.on}}">✓</text></view>
+    </view>
+    <view class="allergen-foot" wx:if="{{allergens.length}}">
+      <text class="allergen-count">已选 {{allergens.length}} 项</text>
+      <text class="allergen-clear" bindtap="clearAllergens">清空</text>
+    </view>
+  </view>
+
+  <view class="section-title"><text class="emoji">🚫</text>忌口（逗号分隔）</view>
+  <input class="dislikes card" placeholder="例如：香菜, 葱, 姜" value="{{dislikes}}" bindinput="onDislikes" />
+
+  <view class="btn btn-block btn-green mt" bindtap="generate" wx:if="{{!loading}}">✨ 生成一周计划</view>
+  <view class="btn btn-block btn-green mt" wx:else>规划中…</view>
+
+  <block wx:if="{{result}}">
+    <!-- 已应用的条件 -->
+    <view class="applied card">
+      <text>已为 {{result.people}} 人规划</text>
+      <text wx:if="{{result.allergens.length}}" class="ap-item">避开：{{result.allergens}}</text>
+      <text wx:if="{{result.dislikes.length}}" class="ap-item">忌口：{{result.dislikes}}</text>
+    </view>
+
+    <!-- 星期切换 -->
+    <scroll-view class="day-tabs" scroll-x>
+      <view
+        class="day-tab {{activeDay === idx ? 'day-on' : ''}}"
+        wx:for="{{result.days}}"
+        wx:key="day"
+        wx:for-index="idx"
+        bindtap="selectDay"
+        data-idx="{{idx}}"
+      >{{item.label}}</view>
+    </scroll-view>
+
+    <!-- 当日三餐 -->
+    <view class="day-card card" wx:for="{{['breakfast','lunch','dinner']}}" wx:key="*this" wx:if="{{result.days[activeDay].meals[item].length}}">
+      <view class="meal-title">{{item === 'breakfast' ? '🌅 早餐' : (item === 'lunch' ? '☀️ 午餐' : '🌙 晚餐')}}</view>
+      <view class="meal-items">
+        <view class="dish" wx:for="{{result.days[activeDay].meals[item]}}" wx:for-item="d" wx:key="id" bindtap="goDetail" data-id="{{d.id}}">
+          <text class="dish-name">{{d.name}}</text>
+          <text class="dish-cal" wx:if="{{d.calories}}">{{d.calories}}千卡</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="btn btn-block btn-yellow mt" bindtap="generate">🔄 换一套方案</view>
+  </block>
+</view>

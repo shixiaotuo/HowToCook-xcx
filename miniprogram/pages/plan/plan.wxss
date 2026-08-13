@@ -1,0 +1,40 @@
+.page { padding: 24rpx; }
+.hero { background: var(--accent-soft); text-align: center; }
+.hero-emoji { font-size: 72rpx; }
+.hero-title { font-size: 42rpx; font-weight: 900; color: var(--text); }
+.hero-sub { font-size: 24rpx; color: var(--text-soft); margin-top: 6rpx; }
+
+.stepper-row { display: flex; align-items: center; justify-content: center; gap: 40rpx; }
+.step-btn {
+  width: 80rpx; height: 80rpx; line-height: 76rpx; text-align: center;
+  background: var(--accent-2); border: 4rpx solid var(--border); border-radius: 50%;
+  font-size: 48rpx; font-weight: 900; color: var(--text); box-shadow: 3rpx 3rpx 0 var(--border);
+}
+.step-num { font-size: 40rpx; font-weight: 800; color: var(--text); min-width: 120rpx; text-align: center; }
+
+.dislikes { width: 100%; padding: 20rpx 26rpx; font-size: 28rpx; background: var(--surface); border: 4rpx solid var(--border); border-radius: 18rpx; box-shadow: 3rpx 3rpx 0 var(--border); }
+.btn-green { background: var(--green); color: var(--text); }
+
+.applied { display: flex; flex-direction: column; gap: 8rpx; margin-top: 28rpx; font-size: 24rpx; color: var(--text-soft); background: var(--surface); border: 4rpx solid var(--border); border-radius: 18rpx; padding: 18rpx 22rpx; box-shadow: 3rpx 3rpx 0 var(--border); }
+.ap-item { color: var(--accent); font-weight: 700; }
+
+.day-tabs { white-space: nowrap; margin-top: 22rpx; }
+.day-tab {
+  display: inline-block; padding: 14rpx 30rpx; margin-right: 16rpx;
+  background: var(--surface); border: 4rpx solid var(--border); border-radius: 999rpx;
+  font-size: 28rpx; font-weight: 700; color: var(--text);
+}
+.day-on { background: var(--accent); color: var(--on-accent); }
+
+.day-card { margin-top: 20rpx; }
+.meal-title {
+  display: inline-block; background: var(--border); color: #fff; font-weight: 800;
+  padding: 6rpx 24rpx; border-radius: 999rpx; font-size: 26rpx; margin-bottom: 16rpx;
+}
+.meal-items { display: flex; flex-direction: column; gap: 14rpx; }
+.dish {
+  display: flex; align-items: center; justify-content: space-between;
+  background: var(--surface-2); border: 3rpx solid var(--border); border-radius: 18rpx; padding: 18rpx 24rpx;
+}
+.dish-name { font-size: 30rpx; font-weight: 700; color: var(--text); }
+.dish-cal { font-size: 22rpx; color: var(--text-soft); }

@@ -1,0 +1,22 @@
+<view class="topbar">
+  <view class="style-btn" bindtap="openSheet">🎨 换肤</view>
+</view>
+
+<view wx:if="{{sheetShow}}">
+  <view class="sheet-mask" bindtap="closeSheet"></view>
+  <view class="sheet" catchtap="noop">
+    <view class="sheet-title">选择皮肤</view>
+    <view class="theme-grid">
+      <view
+        class="theme-opt {{theme === item.key ? 'active' : ''}}"
+        wx:for="{{themes}}"
+        wx:key="key"
+        bindtap="pickTheme"
+        data-key="{{item.key}}"
+      >
+        <view class="theme-swatch" style="background:{{item.swatch}}"></view>
+        <view class="theme-name">{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+</view>

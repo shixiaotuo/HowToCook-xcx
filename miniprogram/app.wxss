@@ -1,0 +1,187 @@
+/* ===== 程序员做饭指南 · 蜡笔小新风格主题（可换肤） ===== */
+page {
+  /* 饱和蜡笔调色板（默认：蜡笔小新） */
+  --coral: #FF6F61; --coral-soft: #FFB3A7;
+  --yellow: #FFD93D; --blue: #6BCBFF; --green: #7BD389;
+  --pink: #FFB3C1; --purple: #C9A0FF;
+  --brown: #6B4226; --brown-soft: #A9826A;
+  --cream: #FFF8EC; --ink: #4A3A2F;
+
+  /* 语义变量：皮肤切换的核心，所有组件都引用这些，换肤即全局生效 */
+  --bg: #FFF8EC;          /* 页面背景 */
+  --surface: #FFFFFF;      /* 卡片背景 */
+  --surface-2: #FFF1E0;    /* 次级背景（未选中 chip / 输入框底色 / 占位图） */
+  --text: #4A3A2F;        /* 主文字 */
+  --text-soft: #A9826A;    /* 次级文字 */
+  --border: #6B4226;       /* 描边 / 贴纸投影色 */
+  --accent: #FF6F61;       /* 主强调色（按钮 / 选中态） */
+  --accent-soft: #FFB3A7;  /* 强调色浅色（hero 渐变 / 提示底） */
+  --accent-2: #FFD93D;     /* 次强调色（步进器 / 黄色按钮） */
+  --on-accent: #FFFFFF;    /* 强调色之上的文字 */
+
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 28rpx;
+  line-height: 1.6;
+}
+
+view, text, scroll-view { box-sizing: border-box; }
+
+/* 整页容器：铺满背景，换肤时 .theme-xxx 会重定义 --bg，这里直接吃到 */
+.page { background: var(--bg); min-height: 100vh; padding: 24rpx; }
+
+/* 卡片：背景 + 暖棕粗描边 + 贴纸投影（全部用语义变量） */
+.card {
+  background: var(--surface);
+  border: 4rpx solid var(--border);
+  border-radius: 28rpx;
+  box-shadow: 6rpx 6rpx 0 var(--border);
+  padding: 28rpx;
+}
+
+/* 区块标题 */
+.section-title {
+  font-size: 40rpx; font-weight: 800;
+  color: var(--border); margin: 8rpx 0 20rpx;
+  display: flex; align-items: center;
+}
+.section-title .emoji { margin-right: 12rpx; }
+
+/* 按钮：糖果色 */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--accent); color: var(--on-accent);
+  border: 4rpx solid var(--border); border-radius: 999rpx;
+  padding: 20rpx 44rpx; font-weight: 800; font-size: 30rpx;
+  box-shadow: 4rpx 4rpx 0 var(--border);
+}
+.btn::after { border: none; }
+.btn:active { transform: translate(2rpx, 2rpx); box-shadow: 2rpx 2rpx 0 var(--border); }
+.btn.btn-yellow { background: var(--accent-2); color: var(--text); }
+.btn.btn-blue { background: var(--blue); color: var(--text); }
+.btn.btn-green { background: var(--green); color: var(--text); }
+.btn.btn-block { width: 100%; }
+
+/* 标签：统一跟随主题强调色，去掉原先写死的彩色背景（换肤时不再撞色） */
+.tag {
+  display: inline-block; padding: 4rpx 18rpx; border-radius: 999rpx;
+  font-size: 22rpx; font-weight: 700; color: var(--on-accent, #fff);
+  background: var(--accent); border: 3rpx solid var(--border);
+}
+
+/* 通用布局 */
+.row { display: flex; align-items: center; }
+.between { justify-content: space-between; }
+.wrap { flex-wrap: wrap; }
+.muted { color: var(--text-soft); font-size: 24rpx; }
+.mt { margin-top: 24rpx; }
+.mb { margin-bottom: 24rpx; }
+.center { text-align: center; }
+
+/* ============================================================
+   过敏源 chips（random / plan 两个页面共用，统一强对比样式）
+   关键修复：托盘底色必须用中性色，绝不能用强调色浅底（--accent-soft），
+   否则选中态(--accent)会与卡片底色"同色系撞色"，导致完全看不出选中。
+   三层视觉梯度：白托盘 < 浅色未选药丸 < 强调色实心选中，一眼可辨。
+   ============================================================ */
+.allergen-box {
+  background: var(--surface);
+  border: 4rpx solid var(--border);
+  border-radius: 24rpx;
+  box-shadow: 4rpx 4rpx 0 var(--border);
+  padding: 22rpx 24rpx 24rpx;
+}
+.allergen-tip { font-size: 24rpx; color: var(--text-soft); margin-bottom: 18rpx; line-height: 1.5; }
+.allergen-foot {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-top: 18rpx; padding-top: 14rpx; border-top: 2rpx dashed var(--border);
+}
+.allergen-count { font-size: 24rpx; font-weight: 800; color: var(--accent); }
+.allergen-clear { font-size: 24rpx; color: var(--text-soft); text-decoration: underline; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 16rpx; }
+/* 未选中：空心描边（强调色边框+文字，透明底），读作"可点选" */
+.chip {
+  padding: 14rpx 28rpx;
+  background: transparent;
+  border: 4rpx solid var(--accent, #FF6F61);
+  border-radius: 999rpx;
+  font-size: 26rpx; color: var(--accent, #FF6F61); font-weight: 600;
+  display: inline-flex; align-items: center; gap: 8rpx;
+}
+/* 选中态：实心强调色填充 + 白字加粗 + ✓ + 放大微抬 + 投影，与未选形成强反差（空心 vs 实心） */
+.chip-on {
+  background: var(--accent, #FF6F61);
+  color: var(--on-accent, #FFFFFF);
+  border-color: var(--accent, #FF6F61);
+  font-weight: 900;
+  transform: scale(1.08);
+  box-shadow: 4rpx 4rpx 0 var(--border, #6B4226);
+}
+.chip-check { font-size: 26rpx; font-weight: 900; }
+
+/* ============================================================
+   5 套皮肤：在 .page 根元素挂 .theme-xxx 即整页换肤
+   ============================================================ */
+.theme-morandi {
+  --coral:#C99BA0; --coral-soft:#E8D5D7; --yellow:#D9C18A; --blue:#A9C2CB; --green:#A9C2A9;
+  --pink:#E0B7C0; --purple:#B0A0C4; --brown:#8A7E72; --brown-soft:#B3A89C; --cream:#F3EFEA; --ink:#544E49;
+  --bg:#F3EFEA; --surface:#FBF9F6; --surface-2:#ECE6DF; --text:#544E49; --text-soft:#B3A89C;
+  --border:#8A7E72; --accent:#C99BA0; --accent-soft:#E8D5D7; --accent-2:#D9C18A; --on-accent:#FFFFFF;
+}
+.theme-fresh {
+  --coral:#4FB286; --coral-soft:#BFE3D4; --yellow:#F2C94C; --blue:#6BCBFF; --green:#7BD389;
+  --pink:#FFB3C1; --purple:#C9A0FF; --brown:#3E6B5E; --brown-soft:#7BA593; --cream:#F1F8F4; --ink:#2F4640;
+  --bg:#F1F8F4; --surface:#FFFFFF; --surface-2:#E2F1EA; --text:#2F4640; --text-soft:#7BA593;
+  --border:#3E6B5E; --accent:#4FB286; --accent-soft:#BFE3D4; --accent-2:#F2C94C; --on-accent:#FFFFFF;
+}
+.theme-warm {
+  --coral:#FF8A5B; --coral-soft:#FFD2BE; --yellow:#FFC857; --blue:#6BCBFF; --green:#7BD389;
+  --pink:#FFB3C1; --purple:#C9A0FF; --brown:#9C5A3C; --brown-soft:#C28B6E; --cream:#FFF6EE; --ink:#4A382E;
+  --bg:#FFF6EE; --surface:#FFFFFF; --surface-2:#FFE9DC; --text:#4A382E; --text-soft:#C28B6E;
+  --border:#9C5A3C; --accent:#FF8A5B; --accent-soft:#FFD2BE; --accent-2:#FFC857; --on-accent:#FFFFFF;
+}
+.theme-dark {
+  --coral:#FF8A7A; --coral-soft:#3A2A2A; --yellow:#FFD93D; --blue:#6BCBFF; --green:#7BD389;
+  --pink:#FFB3C1; --purple:#C9A0FF; --brown:#5A5A64; --brown-soft:#9A9AA0; --cream:#16161A; --ink:#EDEDED;
+  --bg:#16161A; --surface:#26262C; --surface-2:#33333C; --text:#EDEDED; --text-soft:#9A9AA0;
+  --border:#5A5A64; --accent:#FF8A7A; --accent-soft:#3A2A2A; --accent-2:#FFD93D; --on-accent:#16161A;
+}
+
+/* 蜡笔小新：显式主题类，与默认 page 调色板一致（确保 .theme-crayon 也能命中，切换无闪烁） */
+.theme-crayon {
+  --coral:#FF6F61; --coral-soft:#FFB3A7; --yellow:#FFD93D; --blue:#6BCBFF; --green:#7BD389;
+  --pink:#FFB3C1; --purple:#C9A0FF; --brown:#6B4226; --brown-soft:#A9826A; --cream:#FFF8EC; --ink:#4A3A2F;
+  --bg:#FFF8EC; --surface:#FFFFFF; --surface-2:#FFF1E0; --text:#4A3A2F; --text-soft:#A9826A;
+  --border:#6B4226; --accent:#FF6F61; --accent-soft:#FFB3A7; --accent-2:#FFD93D; --on-accent:#FFFFFF;
+}
+
+/* ============================================================
+   自定义导航栏（recipes / detail 用 navigationStyle:custom）
+   目的：多皮肤下推页时，原生导航栏首帧用静态 app.json 色会"闪白"；
+   改用页内头部后，顶部即页面内容，跟随主题变量首帧即正确（暗夜直接深色）。
+   ============================================================ */
+.nav-header {
+  margin: -24rpx -24rpx 0;
+  padding-left: 24rpx; padding-right: 24rpx; padding-bottom: 20rpx;
+  background: var(--bg);
+  display: flex; align-items: center;
+}
+.nav-back {
+  flex-shrink: 0; width: 60rpx; height: 60rpx; line-height: 56rpx; text-align: center;
+  font-size: 40rpx; color: var(--text);
+  background: var(--surface); border: 4rpx solid var(--border); border-radius: 50%;
+  box-shadow: 3rpx 3rpx 0 var(--border); margin-right: 16rpx;
+}
+.nav-back:active { transform: translate(2rpx, 2rpx); box-shadow: 1rpx 1rpx 0 var(--border); }
+.nav-title {
+  flex: 1; font-size: 34rpx; font-weight: 800; color: var(--text);
+  overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+}
+
+/* 自定义导航栏下的状态栏占位（index/random/plan 三个 tab 页用）。
+   高度 = statusBarHeight + 44px（状态栏 + 原生导航栏高度），
+   既把主题色铺满首帧顶部（不再闪奶白），又让换肤后的布局与原生导航栏时期一致，
+   同时给右上角微信胶囊让出空间，避免与 theme-picker 按钮重叠。 */
+.status-spacer { width: 100%; }

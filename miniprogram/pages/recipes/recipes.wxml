@@ -1,0 +1,26 @@
+<view class="page theme-{{theme}}">
+  <view class="nav-header" style="padding-top:{{statusBarHeight}}px;">
+    <view class="nav-back" bindtap="goBack">←</view>
+    <view class="nav-title">{{navTitle}}</view>
+  </view>
+  <view wx:if="{{loadError}}" class="load-error">⚠️ 加载失败：{{loadError}}</view>
+  <view class="count-bar card">
+    <text wx:if="{{mode==='search'}}">找到 <text class="hl">{{total}}</text> 道相关菜谱</text>
+    <text wx:else>共 <text class="hl">{{total}}</text> 道菜</text>
+  </view>
+
+  <view class="list">
+    <recipe-card
+      wx:for="{{list}}"
+      wx:key="id"
+      recipe="{{item}}"
+      tagColor="{{item.tagColor}}"
+      tagText="{{item.tagText}}"
+      bind:select="onSelect"
+    />
+  </view>
+
+  <view class="foot center muted" wx:if="{{!hasMore && list.length}}">— 已经到底啦 —</view>
+  <view class="foot center muted" wx:if="{{!loading && !list.length}}">没有找到合适的菜谱 🥲</view>
+  <view class="foot center muted" wx:if="{{loading}}">加载中…</view>
+</view>

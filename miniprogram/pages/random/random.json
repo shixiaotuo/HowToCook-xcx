@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "theme-picker": "/components/theme-picker/theme-picker"
+  },
+  "navigationStyle": "custom"
+}

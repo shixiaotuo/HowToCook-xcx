@@ -1,0 +1,62 @@
+<view class="page theme-{{theme}}">
+  <view class="status-spacer" style="height:{{statusBarHeight}}px;"></view>
+  <theme-picker bind:change="onThemeChange" />
+
+  <view class="hero card">
+    <view class="hero-emoji">🤔</view>
+    <view class="hero-title">今天吃什么？</view>
+    <view class="hero-sub">选择困难症福音，按人数一键开饭</view>
+  </view>
+
+  <!-- 人数 -->
+  <view class="section-title"><text class="emoji">👥</text>用餐人数</view>
+  <view class="card stepper-row">
+    <view class="step-btn" bindtap="changePeople" data-delta="-1">−</view>
+    <view class="step-num">{{people}} 人</view>
+    <view class="step-btn" bindtap="changePeople" data-delta="1">＋</view>
+  </view>
+
+  <!-- 过敏原（醒目卡片） -->
+  <view class="section-title"><text class="emoji">⚠️</text>过敏原（可多选）</view>
+  <view class="allergen-box">
+    <view class="allergen-tip">点选你过敏的食材，系统会自动避开相关菜谱</view>
+    <view class="chips">
+      <view
+        class="chip {{item.on ? 'chip-on' : ''}}"
+        wx:for="{{allergenView}}"
+        wx:key="name"
+        bindtap="toggleAllergen"
+        data-key="{{item.name}}"
+      >{{item.name}}<text class="chip-check" wx:if="{{item.on}}">✓</text></view>
+    </view>
+    <view class="allergen-foot" wx:if="{{allergens.length}}">
+      <text class="allergen-count">已选 {{allergens.length}} 项</text>
+      <text class="allergen-clear" bindtap="clearAllergens">清空</text>
+    </view>
+  </view>
+
+  <!-- 忌口 -->
+  <view class="section-title"><text class="emoji">🚫</text>忌口（逗号分隔）</view>
+  <input class="dislikes card" placeholder="例如：香菜, 葱, 姜" value="{{dislikes}}" bindinput="onDislikes" />
+
+  <view class="btn btn-block btn-coral mt" bindtap="generate" wx:if="{{!loading}}">🎲 帮我决定！</view>
+  <view class="btn btn-block btn-coral mt" wx:else>生成中…</view>
+
+  <!-- 结果 -->
+  <block wx:if="{{result}}">
+    <view class="result-head">
+      今日菜单 · {{result.people}} 人
+      <text class="result-avoid" wx:if="{{result.allergens.length}}">已避开 {{result.allergens.length}} 项过敏原</text>
+    </view>
+    <view class="meal card" wx:for="{{result.menu}}" wx:key="meal" wx:if="{{item.items.length}}">
+      <view class="meal-title">{{item.meal}}</view>
+      <view class="meal-items">
+        <view class="dish" wx:for="{{item.items}}" wx:for-item="d" wx:key="id" bindtap="goDetail" data-id="{{d.id}}">
+          <text class="dish-name">{{d.name}}</text>
+          <text class="dish-cal" wx:if="{{d.calories}}">{{d.calories}}千卡</text>
+        </view>
+      </view>
+    </view>
+    <view class="btn btn-block btn-yellow mt" bindtap="generate">🔄 换一批</view>
+  </block>
+</view>

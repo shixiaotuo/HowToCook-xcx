@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "theme-picker": "/components/theme-picker/theme-picker"
+  },
+  "navigationBarTitleText": "程序员做饭指南",
+  "navigationStyle": "custom"
+}

@@ -1,0 +1,6 @@
+.page { padding: 24rpx; }
+.load-error { margin-bottom: 20rpx; padding: 18rpx 22rpx; background: #FFF0F0; border: 3rpx solid #FF6F61; border-radius: 16rpx; color: #C0392B; font-size: 24rpx; line-height: 1.5; }
+.count-bar { text-align: center; font-size: 28rpx; color: var(--text-soft); margin-bottom: 20rpx; }
+.hl { color: var(--accent); font-weight: 800; font-size: 34rpx; }
+.list { display: flex; flex-direction: column; gap: 18rpx; }
+.foot { margin: 30rpx 0; }

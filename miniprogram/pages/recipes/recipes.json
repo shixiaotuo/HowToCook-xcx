@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "recipe-card": "/components/recipe-card/recipe-card"
+  }
+}
