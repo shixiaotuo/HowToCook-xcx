@@ -109,6 +109,32 @@ function mdToHtml(md, theme) {
   return html;
 }
 
+// 将 steps 一维数组（含 ## 标题 / > 说明 / S<n> 步骤 前缀约定）预处理为带 kind 的展示列表。
+// - kind==='title' / 'tip' 不参与编号；
+// - 步骤若带 "Sn " 前缀（n 为上游原始分段编号），则保留原编号（不同子段各自从 1 开始，和源一致）；
+// - 无前缀的纯文本步骤数组（其他菜）则自动连续编号，完全兼容。
+function buildSteps(steps) {
+  const out = [];
+  let autoNo = 0;
+  (steps || []).forEach((s) => {
+    const t = String(s);
+    if (t.startsWith('## ')) {
+      out.push({ kind: 'title', text: t.slice(3).trim(), no: 0 });
+    } else if (t.startsWith('> ')) {
+      out.push({ kind: 'tip', text: t.slice(2).trim(), no: 0 });
+    } else {
+      const m = /^S(\d+)\s+([\s\S]*)$/.exec(t);
+      if (m) {
+        out.push({ kind: 'step', text: m[2], no: parseInt(m[1], 10) });
+      } else {
+        autoNo += 1;
+        out.push({ kind: 'step', text: t, no: autoNo });
+      }
+    }
+  });
+  return out;
+}
+
 Page({
   data: {
     recipe: null,
@@ -158,6 +184,7 @@ Page({
         colorText: cat.textColor(r.category, this.data.theme),
         loading: false,
         isTip: r.type === 'tip',
+        displaySteps: buildSteps(r.steps),
         navTitle: r.name,
         richContent: r.type === 'tip' ? mdToHtml(r.content || '', this.data.theme) : '',
       });

@@ -8,14 +8,14 @@
     <!-- 头部 -->
     <view class="head card" style="border-color:{{color}}">
       <view class="head-top">
-        <text class="title">{{recipe.name}}</text>
+        <text class="title" user-select="true">{{recipe.name}}</text>
         <text class="tag" style="background:{{color}};color:{{colorText}}">{{recipe.categoryName}}</text>
       </view>
       <view class="meta">
-        <text wx:if="{{recipe.difficulty}}">🔥 难度 {{recipe.difficulty}}</text>
-        <text wx:if="{{recipe.calories}}" class="meta-cal">⚡ {{recipe.calories}} 千卡</text>
+        <text wx:if="{{recipe.difficulty}}" user-select="true">🔥 难度 {{recipe.difficulty}}</text>
+        <text wx:if="{{recipe.calories}}" class="meta-cal" user-select="true">⚡ {{recipe.calories}} 千卡</text>
       </view>
-      <view class="summary" wx:if="{{recipe.summary && !isTip}}">{{recipe.summary}}</view>
+      <view class="summary" wx:if="{{recipe.summary && !isTip}}"><text user-select="true" class="copy-block">{{recipe.summary}}</text></view>
     </view>
 
     <!-- 厨房小知识正文 -->
@@ -28,23 +28,38 @@
     <block wx:else>
       <image wx:if="{{recipe.images.length}}" class="hero" src="/{{recipe.images[0]}}" mode="aspectFill" />
 
-      <view class="section-title"><text class="emoji">🧺</text>必备原料和工具</view>
-      <view class="box card">
-        <view class="ing" wx:for="{{recipe.ingredients}}" wx:key="*this">· {{item}}</view>
-      </view>
+      <block wx:if="{{recipe.ingredients.length}}">
+        <view class="section-title"><text class="emoji">🧺</text>必备原料和工具</view>
+        <view class="box card">
+          <view class="ing" wx:for="{{recipe.ingredients}}" wx:key="*this"><text user-select="true">· {{item}}</text></view>
+        </view>
+      </block>
 
-      <view class="section-title"><text class="emoji">⚖️</text>用量计算</view>
-      <view class="box card">
-        <view class="ing" wx:for="{{recipe.ingredientDetails}}" wx:key="*this">· {{item}}</view>
-      </view>
+      <block wx:if="{{recipe.ingredientDetails.length}}">
+        <view class="section-title"><text class="emoji">⚖️</text>用量计算</view>
+        <view class="box card">
+          <view class="ing" wx:for="{{recipe.ingredientDetails}}" wx:key="*this"><text user-select="true">· {{item}}</text></view>
+        </view>
+      </block>
 
       <view class="section-title"><text class="emoji">👩‍🍳</text>操作步骤</view>
       <view class="box card">
-        <view class="step" wx:for="{{recipe.steps}}" wx:key="index">
-          <view class="step-no">{{index+1}}</view>
-          <view class="step-text">{{item}}</view>
-        </view>
+        <block wx:for="{{displaySteps}}" wx:key="index">
+          <view wx:if="{{item.kind === 'title'}}" class="step-title"><text user-select="true">{{item.text}}</text></view>
+          <view wx:elif="{{item.kind === 'tip'}}" class="step-tip"><text user-select="true">{{item.text}}</text></view>
+          <view wx:else class="step">
+            <view class="step-no">{{item.no}}</view>
+            <view class="step-text"><text user-select="true" class="copy-block">{{item.text}}</text></view>
+          </view>
+        </block>
       </view>
+
+      <block wx:if="{{recipe.additional.length}}">
+        <view class="section-title"><text class="emoji">💡</text>附加内容</view>
+        <view class="box card">
+          <view class="ing" wx:for="{{recipe.additional}}" wx:key="*this"><text user-select="true">{{item}}</text></view>
+        </view>
+      </block>
 
       <block wx:if="{{recipe.images.length}}">
         <view class="section-title"><text class="emoji">🖼️</text>菜品实拍</view>

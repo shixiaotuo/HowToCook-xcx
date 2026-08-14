@@ -16,7 +16,22 @@
   border-radius: 50%; font-weight: 800; font-size: 26rpx;
 }
 .step-text { flex: 1; font-size: 27rpx; color: var(--text); line-height: 1.7; }
+.step-title {
+  margin-top: 18rpx; font-size: 28rpx; font-weight: 800; color: var(--accent);
+  border-left: 8rpx solid var(--accent); padding-left: 16rpx; line-height: 1.6;
+}
+.step-tip {
+  margin: 8rpx 0; padding: 12rpx 18rpx; font-size: 25rpx; color: var(--text-soft);
+  background: var(--surface-2); border-left: 6rpx solid var(--border); border-radius: 12rpx; line-height: 1.6;
+}
 .src { margin: 30rpx 0; }
+
+/* 允许长按复制菜谱文本 */
+.copy-block { display: block; white-space: pre-wrap; word-break: break-word; }
+.summary, .ing, .step-text, .step-title, .step-tip, .meta, .title {
+  -webkit-user-select: text;
+  user-select: text;
+}
 .hero {
   width: 100%; height: 360rpx; border-radius: 20rpx; margin-bottom: 10rpx;
   background: var(--surface-2); border: 3rpx solid var(--border); display: block;
