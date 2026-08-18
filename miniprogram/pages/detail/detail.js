@@ -198,8 +198,22 @@ Page({
 
   previewImage(e) {
     const src = e.currentTarget.dataset.src;
-    const urls = (this.data.recipe.images || []).map((p) => '/' + p);
-    wx.previewImage({ current: src, urls });
+    const fileList = (this.data.recipe.images || []).filter((p) => !!p);
+    if (!fileList.length) return;
+    // cloud:// fileID 需先换成临时 https 链接才能用于 wx.previewImage
+    wx.cloud.getTempFileURL({
+      fileList,
+      success: (res) => {
+        const list = res.fileList || [];
+        const urls = list.map((f) => f.tempFileURL).filter(Boolean);
+        const hit = list.find((f) => f.fileID === src);
+        const current = (hit && hit.tempFileURL) || src;
+        wx.previewImage({ current, urls: urls.length ? urls : fileList });
+      },
+      fail: () => {
+        wx.previewImage({ current: src, urls: fileList });
+      },
+    });
   },
 
   goBack() {

@@ -1,5 +1,5 @@
 <view class="rc-card card" bindtap="onTap" hover-class="rc-hover">
-  <image wx:if="{{recipe.cover}}" class="rc-cover" src="/{{recipe.cover}}" mode="aspectFill" />
+  <image wx:if="{{recipe.cover}}" class="rc-cover" src="{{recipe.cover}}" mode="aspectFill" />
   <view class="rc-head">
     <text class="rc-name">{{recipe.name}}</text>
     <text class="rc-tag" style="background:{{tagColor || ''}};color:{{tagText || ''}}">{{recipe.type === 'tip' ? '💡 小知识' : recipe.categoryName}}</text>

@@ -26,7 +26,7 @@
 
     <!-- 菜谱内容 -->
     <block wx:else>
-      <image wx:if="{{recipe.images.length}}" class="hero" src="/{{recipe.images[0]}}" mode="aspectFill" />
+      <image wx:if="{{recipe.images.length}}" class="hero" src="{{recipe.images[0]}}" mode="aspectFill" />
 
       <block wx:if="{{recipe.ingredients.length}}">
         <view class="section-title"><text class="emoji">🧺</text>必备原料和工具</view>
@@ -64,7 +64,7 @@
       <block wx:if="{{recipe.images.length}}">
         <view class="section-title"><text class="emoji">🖼️</text>菜品实拍</view>
         <view class="gallery">
-          <image wx:for="{{recipe.images}}" wx:key="*this" class="gimg" src="/{{item}}" mode="aspectFill" bindtap="previewImage" data-src="/{{item}}" />
+          <image wx:for="{{recipe.images}}" wx:key="*this" class="gimg" src="{{item}}" mode="aspectFill" bindtap="previewImage" data-src="{{item}}" />
         </view>
       </block>
     </block>

@@ -14,3 +14,33 @@ Thumbs.db
 *.log
 *.tmp
 *.swp
+
+# ===== 封面工程：本地大图与中间产物（封面已上传 CloudBase 云存储，勿入库）=====
+# 359 套最终封面原图（已上传云存储，fileID 见 scripts/fileid_map.json）
+_covers_final/
+# 42 张 AI 重做封面原图
+_ai_covers/
+# 各阶段抓取/生成中间目录
+_gen_v2/
+_gen_up/
+_gen_pexels_gap/
+# 对比/复核 HTML（本地预览用，体积大）
+ai_compare.html
+# 脚本中间产物与缓存
+scripts/__pycache__/
+scripts/cover_review.html
+scripts/final_gallery.html
+scripts/final_review.html
+scripts/replace_review.html
+scripts/low_gallery.html
+scripts/ok_gallery.html
+scripts/viewer_gallery.html
+scripts/viewer_*.json
+scripts/_diag.json
+scripts/_lm_hdr.txt
+scripts/pexels_*.json
+scripts/gap_translations.json
+scripts/flagged_candidates.json
+scripts/upstream_map.json
+scripts/pexels_review_list.md
+scripts/ai_compare.html
