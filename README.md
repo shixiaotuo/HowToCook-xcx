@@ -14,6 +14,15 @@
 
 > 每次推送的更新内容在此汇总，便于追溯。
 
+### 2026-08-18 · `64ce421`
+- **封面图全量迁移至 CloudBase 云存储**（359 道菜，kitchen_tips 18 道无封面）：
+  - 359 张封面上传云存储 `covers/<分类>/<菜名>.jpg`，`recipes.json` 的 `cover`/`images` 改为 `cloud://` fileID
+  - 修复前端图片路径：去掉为本地 `assets` 设计的 `/` 前缀，使 `cloud://` 在小程序原生渲染
+  - 详情页预览改用 `wx.cloud.getTempFileURL` 转临时链接（`wx.previewImage` 不支持 `cloud://`）
+  - 新增 `scripts/upload_covers.js`（CloudBase API Key / JWT 直传）与 `scripts/fileid_map.json`（359 条 fileID 映射）
+- **封面来源构成**：真实图 160 + Pexels 158 + AI 生成 42（含水煮鱼、台式卤肉饭等重做项）
+- **部署注意**：需重新部署 `getRecipes` 云函数（读包内 `data/recipes.json`）并重新编译小程序，封面才会生效
+
 ### 2026-08-14 · `fa1e7e2`
 - **全库餐单数据对照上游 HowToCook 统一修正**（360 道真菜，排除 18 道厨房技巧）：
   - 简介截断补全 127 道（解析时误在「预估烹饪难度」前截断，已补回尾句）
