@@ -129,4 +129,19 @@ Page({
   goPlan() {
     wx.switchTab({ url: '/pages/plan/plan' });
   },
+
+  // 转发给好友
+  onShareAppMessage() {
+    return {
+      title: '程序猿做饭指南｜今天吃什么，用它搞定',
+      path: '/pages/index/index',
+    };
+  },
+
+  // 分享到朋友圈
+  onShareTimeline() {
+    return {
+      title: '程序猿做饭指南｜今天吃什么，用它搞定',
+    };
+  },
 });

@@ -224,4 +224,26 @@ Page({
       wx.reLaunch({ url: '/pages/index/index' });
     }
   },
+
+  // 转发给好友：定义后右上角「…」才出现「转发」入口，<button open-type="share"> 也可触发
+  onShareAppMessage() {
+    const r = this.data.recipe || {};
+    const id = r.id || '';
+    const name = r.name || '今天吃什么';
+    return {
+      title: `${name}｜程序猿做饭指南`,
+      path: `/pages/detail/detail?id=${encodeURIComponent(id)}`,
+    };
+  },
+
+  // 分享到朋友圈：定义后右上角「…」才出现「分享到朋友圈」入口（朋友圈仅能由菜单触发）
+  onShareTimeline() {
+    const r = this.data.recipe || {};
+    const id = r.id || '';
+    const name = r.name || '今天吃什么';
+    return {
+      title: `${name}｜程序猿做饭指南`,
+      query: `id=${encodeURIComponent(id)}`,
+    };
+  },
 });

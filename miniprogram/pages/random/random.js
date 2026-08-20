@@ -86,4 +86,19 @@ Page({
     const id = e.currentTarget.dataset.id;
     wx.navigateTo({ url: `/pages/detail/detail?id=${encodeURIComponent(id)}` });
   },
+
+  // 转发给好友
+  onShareAppMessage() {
+    return {
+      title: '程序猿做饭指南｜摇一摇，今天吃啥不用愁',
+      path: '/pages/random/random',
+    };
+  },
+
+  // 分享到朋友圈
+  onShareTimeline() {
+    return {
+      title: '程序猿做饭指南｜摇一摇，今天吃啥不用愁',
+    };
+  },
 });

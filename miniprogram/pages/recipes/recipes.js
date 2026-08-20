@@ -107,4 +107,34 @@ Page({
       wx.reLaunch({ url: '/pages/index/index' });
     }
   },
+
+  // 转发给好友：带当前分类/搜索条件，好友打开即看到同一份列表
+  onShareAppMessage() {
+    const { mode, category, categoryName, keyword } = this.data;
+    let title = '程序猿做饭指南｜海量菜谱任你选';
+    let path = '/pages/recipes/recipes';
+    if (mode === 'category') {
+      title = `${categoryName}｜程序猿做饭指南`;
+      path += `?category=${encodeURIComponent(category)}&name=${encodeURIComponent(categoryName)}`;
+    } else if (mode === 'search') {
+      title = `搜索：${keyword}｜程序猿做饭指南`;
+      path += `?search=${encodeURIComponent(keyword)}`;
+    }
+    return { title, path };
+  },
+
+  // 分享到朋友圈
+  onShareTimeline() {
+    const { mode, category, categoryName, keyword } = this.data;
+    let title = '程序猿做饭指南｜海量菜谱任你选';
+    let query = '';
+    if (mode === 'category') {
+      title = `${categoryName}｜程序猿做饭指南`;
+      query = `category=${encodeURIComponent(category)}&name=${encodeURIComponent(categoryName)}`;
+    } else if (mode === 'search') {
+      title = `搜索：${keyword}｜程序猿做饭指南`;
+      query = `search=${encodeURIComponent(keyword)}`;
+    }
+    return { title, query };
+  },
 });

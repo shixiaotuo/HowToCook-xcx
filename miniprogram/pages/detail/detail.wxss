@@ -49,3 +49,17 @@
   border: 3rpx solid var(--border); margin-bottom: 12rpx;
 }
 .rich { display: block; }
+
+/* 详情页分享按钮：蜡笔小新风（粗描边 + 贴纸投影） */
+.share-btn {
+  margin-top: 18rpx;
+  width: 100%;
+  font-size: 28rpx;
+  font-weight: 800;
+  line-height: 1.6;
+  padding: 14rpx 0;
+  border: 4rpx solid var(--border);
+  border-radius: 16rpx;
+  box-shadow: 3rpx 3rpx 0 var(--border);
+}
+.share-btn::after { border: none; }

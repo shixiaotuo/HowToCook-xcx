@@ -91,4 +91,19 @@ Page({
     const id = e.currentTarget.dataset.id;
     wx.navigateTo({ url: `/pages/detail/detail?id=${encodeURIComponent(id)}` });
   },
+
+  // 转发给好友
+  onShareAppMessage() {
+    return {
+      title: '程序猿做饭指南｜一周三餐不重样',
+      path: '/pages/plan/plan',
+    };
+  },
+
+  // 分享到朋友圈
+  onShareTimeline() {
+    return {
+      title: '程序猿做饭指南｜一周三餐不重样',
+    };
+  },
 });

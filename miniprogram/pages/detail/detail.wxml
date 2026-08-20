@@ -16,6 +16,7 @@
         <text wx:if="{{recipe.calories}}" class="meta-cal" user-select="true">⚡ {{recipe.calories}} 千卡</text>
       </view>
       <view class="summary" wx:if="{{recipe.summary && !isTip}}"><text user-select="true" class="copy-block">{{recipe.summary}}</text></view>
+      <button wx:if="{{!isTip}}" class="share-btn" open-type="share" style="background:{{color}};color:{{colorText}};">分享这道菜给好友</button>
     </view>
 
     <!-- 厨房小知识正文 -->
