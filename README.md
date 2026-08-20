@@ -14,6 +14,13 @@
 
 > 每次推送的更新内容在此汇总，便于追溯。
 
+### 2026-08-20 · `9609b4a`
+- **补齐微信转发与朋友圈分享功能**（此前完全未实现，导致「...」菜单无转发/朋友圈入口）：
+  - 5 个页面（detail / index / random / plan / recipes）均新增 `onShareAppMessage`（转发）与 `onShareTimeline`（朋友圈）handler
+  - 详情页新增 `open-type="share"` 按钮（蜡笔小新风格），分享单道菜并带 `id` 参数，好友打开直达该菜
+  - 列表页（recipes）按当前分类/搜索条件带参分享，好友打开即同一份结果
+  - 规避坑：朋友圈仅能由右上角「...」触发；封面为 `cloud://` fileID 不作 `imageUrl`，走微信默认截图避免裂图
+
 ### 2026-08-18 · `64ce421`
 - **封面图全量迁移至 CloudBase 云存储**（359 道菜，kitchen_tips 18 道无封面）：
   - 359 张封面上传云存储 `covers/<分类>/<菜名>.jpg`，`recipes.json` 的 `cover`/`images` 改为 `cloud://` fileID
