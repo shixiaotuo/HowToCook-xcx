@@ -1,9 +1,10 @@
 // 统一的后端调用封装：根据 config.mode 在云函数与本地 HTTP 之间切换
 const config = require('../config.js');
+const { getCloud } = require('../cloud.js');
 
 function cloudCall(action, params) {
-  return new Promise((resolve, reject) => {
-    wx.cloud.callFunction({
+  return getCloud().then((cloud) => new Promise((resolve, reject) => {
+    cloud.callFunction({
       name: 'getRecipes',
       data: { action, ...params },
       success: (res) => {
@@ -21,7 +22,7 @@ function cloudCall(action, params) {
         reject(new Error(msg));
       },
     });
-  });
+  }));
 }
 
 function httpCall(action, params) {

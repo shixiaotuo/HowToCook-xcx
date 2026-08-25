@@ -6,7 +6,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const ENV_ID = process.env.ENV_ID || 'cloud1-d1gre2wrxc2bcedee';
+const ENV_ID = process.env.ENV_ID || 'cloud1-d1g9cdbaf154ee432';
 const API_KEY = process.env.API_KEY || process.env.CLOUDBASE_APIKEY;
 const REGION = process.env.REGION || 'ap-shanghai';
 const CONC = parseInt(process.env.CONC || '10', 10);

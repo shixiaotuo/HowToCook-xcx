@@ -1,6 +1,8 @@
 const api = require('../../utils/api.js');
 const cat = require('../../utils/categories.js');
 const themeUtil = require('../../utils/theme.js');
+const config = require('../../config.js');
+const { getCloud } = require('../../cloud.js');
 
 const INIT_THEME = (themeUtil.getTheme && themeUtil.getTheme().key) || 'crayon';
 
@@ -201,18 +203,20 @@ Page({
     const fileList = (this.data.recipe.images || []).filter((p) => !!p);
     if (!fileList.length) return;
     // cloud:// fileID 需先换成临时 https 链接才能用于 wx.previewImage
-    wx.cloud.getTempFileURL({
-      fileList,
-      success: (res) => {
-        const list = res.fileList || [];
-        const urls = list.map((f) => f.tempFileURL).filter(Boolean);
-        const hit = list.find((f) => f.fileID === src);
-        const current = (hit && hit.tempFileURL) || src;
-        wx.previewImage({ current, urls: urls.length ? urls : fileList });
-      },
-      fail: () => {
-        wx.previewImage({ current: src, urls: fileList });
-      },
+    getCloud().then((cloud) => {
+      cloud.getTempFileURL({
+        fileList,
+        success: (res) => {
+          const list = res.fileList || [];
+          const urls = list.map((f) => f.tempFileURL).filter(Boolean);
+          const hit = list.find((f) => f.fileID === src);
+          const current = (hit && hit.tempFileURL) || src;
+          wx.previewImage({ current, urls: urls.length ? urls : fileList });
+        },
+        fail: () => {
+          wx.previewImage({ current: src, urls: fileList });
+        },
+      });
     });
   },
 
