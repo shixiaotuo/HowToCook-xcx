@@ -14,6 +14,14 @@
 
 > 每次推送的更新内容在此汇总，便于追溯。
 
+### 2026-08-25 · `785c803`
+- **并入「要吃啥子」CloudBase 共享环境**（`cloud1-d1g9cdbaf154ee432`），不再使用独立环境 `cloud1-d1gre2wrxc2bcedee`：
+  - 新增 `miniprogram/cloud.js`，封装 `new wx.cloud.Cloud({ resourceAppid, resourceEnv })` 共享实例。
+  - `callFunction` / `getTempFileURL` 统一改用共享实例（跨小程序环境共享的正规调用方式）。
+  - `app.js` 移除错误的 `wx.cloud.init(env: 共享环境)`，避免正式版 `INVALID_ENV`。
+  - 359 张封面 fileID 已回填至新环境，资源方（要吃啥子）部署 `cloudbase_auth` + `getRecipes` 后验证通过。
+- 备注：被共享方不能向共享环境部署云函数，故 `getRecipes` 改由资源方环境部署。
+
 ### 2026-08-20 · `9609b4a`
 - **补齐微信转发与朋友圈分享功能**（此前完全未实现，导致「...」菜单无转发/朋友圈入口）：
   - 5 个页面（detail / index / random / plan / recipes）均新增 `onShareAppMessage`（转发）与 `onShareTimeline`（朋友圈）handler

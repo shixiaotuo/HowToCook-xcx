@@ -1,0 +1,15 @@
+本地真实菜总数: 360
+已覆盖: 360  (real=166  pexels=194)
+缺口: 0
+
+按分类覆盖:
+  aquatic: 27/27
+  breakfast: 25/25
+  condiment: 9/9
+  dessert: 19/19
+  drink: 23/23
+  meat_dish: 108/108
+  semi-finished: 10/10
+  soup: 23/23
+  staple: 55/55
+  vegetable_dish: 61/61

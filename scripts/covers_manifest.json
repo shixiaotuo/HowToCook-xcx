@@ -1,0 +1,2162 @@
+[
+  {
+    "category": "aquatic",
+    "name": "咖喱炒蟹",
+    "src": "_covers_final/aquatic/咖喱炒蟹/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "aquatic",
+    "name": "响油鳝丝",
+    "src": "_covers_final/aquatic/响油鳝丝/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "aquatic",
+    "name": "小龙虾",
+    "src": "_covers_final/aquatic/小龙虾/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "aquatic",
+    "name": "干煎阿根廷红虾",
+    "src": "_covers_final/aquatic/干煎阿根廷红虾/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "aquatic",
+    "name": "微波葱姜黑鳕鱼",
+    "src": "_covers_final/aquatic/微波葱姜黑鳕鱼/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "aquatic",
+    "name": "水煮鱼",
+    "src": "_covers_final/aquatic/水煮鱼/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "aquatic",
+    "name": "油焖大虾",
+    "src": "_covers_final/aquatic/油焖大虾/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "aquatic",
+    "name": "清蒸生蚝",
+    "src": "_covers_final/aquatic/清蒸生蚝/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "aquatic",
+    "name": "清蒸鲈鱼",
+    "src": "_covers_final/aquatic/清蒸鲈鱼/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "aquatic",
+    "name": "白灼虾",
+    "src": "_covers_final/aquatic/白灼虾/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "aquatic",
+    "name": "糖醋鲤鱼",
+    "src": "_covers_final/aquatic/糖醋鲤鱼/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "aquatic",
+    "name": "红烧鱼",
+    "src": "_covers_final/aquatic/红烧鱼/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "aquatic",
+    "name": "红烧鱼头",
+    "src": "_covers_final/aquatic/红烧鱼头/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "aquatic",
+    "name": "红烧鲤鱼",
+    "src": "_covers_final/aquatic/红烧鲤鱼/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "aquatic",
+    "name": "肉蟹煲",
+    "src": "_covers_final/aquatic/肉蟹煲/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "aquatic",
+    "name": "芥末黄油罗氏虾",
+    "src": "_covers_final/aquatic/芥末黄油罗氏虾/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "aquatic",
+    "name": "葱油桂鱼",
+    "src": "_covers_final/aquatic/葱油桂鱼/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "aquatic",
+    "name": "葱烧海参",
+    "src": "_covers_final/aquatic/葱烧海参/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "aquatic",
+    "name": "蒜蓉虾",
+    "src": "_covers_final/aquatic/蒜蓉虾/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "aquatic",
+    "name": "蒜香黄油虾",
+    "src": "_covers_final/aquatic/蒜香黄油虾/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "aquatic",
+    "name": "蛏抱蛋",
+    "src": "_covers_final/aquatic/蛏抱蛋/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "aquatic",
+    "name": "酱炖蟹",
+    "src": "_covers_final/aquatic/酱炖蟹/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "aquatic",
+    "name": "阳朔啤酒鱼",
+    "src": "_covers_final/aquatic/阳朔啤酒鱼/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "aquatic",
+    "name": "香煎翘嘴鱼",
+    "src": "_covers_final/aquatic/香煎翘嘴鱼/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "aquatic",
+    "name": "鲤鱼炖白菜",
+    "src": "_covers_final/aquatic/鲤鱼炖白菜/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "aquatic",
+    "name": "鳊鱼炖豆腐",
+    "src": "_covers_final/aquatic/鳊鱼炖豆腐/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "aquatic",
+    "name": "黄油煎虾",
+    "src": "_covers_final/aquatic/黄油煎虾/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "breakfast",
+    "name": "吐司果酱",
+    "src": "_covers_final/breakfast/吐司果酱/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "太阳蛋",
+    "src": "_covers_final/breakfast/太阳蛋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "完美水煮蛋",
+    "src": "_covers_final/breakfast/完美水煮蛋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "微波炉荷包蛋",
+    "src": "_covers_final/breakfast/微波炉荷包蛋/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "breakfast",
+    "name": "微波炉蒸蛋",
+    "src": "_covers_final/breakfast/微波炉蒸蛋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "微波炉蛋糕",
+    "src": "_covers_final/breakfast/微波炉蛋糕/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "意式香肠北非蛋",
+    "src": "_covers_final/breakfast/意式香肠北非蛋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "手抓饼",
+    "src": "_covers_final/breakfast/手抓饼/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "breakfast",
+    "name": "桂圆红枣粥",
+    "src": "_covers_final/breakfast/桂圆红枣粥/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "breakfast",
+    "name": "水煮玉米",
+    "src": "_covers_final/breakfast/水煮玉米/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "温泉蛋",
+    "src": "_covers_final/breakfast/温泉蛋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "溏心蛋",
+    "src": "_covers_final/breakfast/溏心蛋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "煎饺",
+    "src": "_covers_final/breakfast/煎饺/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "燕麦鸡蛋饼",
+    "src": "_covers_final/breakfast/燕麦鸡蛋饼/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "牛奶燕麦",
+    "src": "_covers_final/breakfast/牛奶燕麦/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "空气炸锅面包片",
+    "src": "_covers_final/breakfast/空气炸锅面包片/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "美式炒蛋",
+    "src": "_covers_final/breakfast/美式炒蛋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "苏格兰蛋",
+    "src": "_covers_final/breakfast/苏格兰蛋/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "breakfast",
+    "name": "茶叶蛋",
+    "src": "_covers_final/breakfast/茶叶蛋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "蒸水蛋",
+    "src": "_covers_final/breakfast/蒸水蛋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "蒸花卷",
+    "src": "_covers_final/breakfast/蒸花卷/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "蛋煎糍粑",
+    "src": "_covers_final/breakfast/蛋煎糍粑/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "金枪鱼酱三明治",
+    "src": "_covers_final/breakfast/金枪鱼酱三明治/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "韩国麻药鸡蛋",
+    "src": "_covers_final/breakfast/韩国麻药鸡蛋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "breakfast",
+    "name": "鸡蛋三明治",
+    "src": "_covers_final/breakfast/鸡蛋三明治/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "condiment",
+    "name": "油泼辣子",
+    "src": "_covers_final/condiment/油泼辣子/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "condiment",
+    "name": "油酥",
+    "src": "_covers_final/condiment/油酥/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "condiment",
+    "name": "炸串酱料",
+    "src": "_covers_final/condiment/炸串酱料/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "condiment",
+    "name": "简易版炒糖色",
+    "src": "_covers_final/condiment/简易版炒糖色/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "condiment",
+    "name": "糖醋汁",
+    "src": "_covers_final/condiment/糖醋汁/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "condiment",
+    "name": "草莓酱",
+    "src": "_covers_final/condiment/草莓酱/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "condiment",
+    "name": "葱油",
+    "src": "_covers_final/condiment/葱油/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "condiment",
+    "name": "蒜香酱油",
+    "src": "_covers_final/condiment/蒜香酱油/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "condiment",
+    "name": "蔗糖糖浆",
+    "src": "_covers_final/condiment/蔗糖糖浆/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "dessert",
+    "name": "反沙芋头",
+    "src": "_covers_final/dessert/反沙芋头/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "dessert",
+    "name": "咖啡椰奶冻",
+    "src": "_covers_final/dessert/咖啡椰奶冻/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "dessert",
+    "name": "奥利奥冰淇淋",
+    "src": "_covers_final/dessert/奥利奥冰淇淋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "dessert",
+    "name": "戚风蛋糕",
+    "src": "_covers_final/dessert/戚风蛋糕/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "dessert",
+    "name": "提拉米苏",
+    "src": "_covers_final/dessert/提拉米苏/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "dessert",
+    "name": "无厨师机蜂蜜面包",
+    "src": "_covers_final/dessert/无厨师机蜂蜜面包/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "dessert",
+    "name": "炸鲜奶",
+    "src": "_covers_final/dessert/炸鲜奶/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "dessert",
+    "name": "烤箱版巴斯克芝士蛋糕",
+    "src": "_covers_final/dessert/烤箱版巴斯克芝士蛋糕/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "dessert",
+    "name": "烤蛋挞",
+    "src": "_covers_final/dessert/烤蛋挞/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "dessert",
+    "name": "玛格丽特饼干",
+    "src": "_covers_final/dessert/玛格丽特饼干/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "dessert",
+    "name": "红柚蛋糕",
+    "src": "_covers_final/dessert/红柚蛋糕/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "dessert",
+    "name": "胡萝卜甜糕",
+    "src": "_covers_final/dessert/胡萝卜甜糕/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "dessert",
+    "name": "芋泥雪媚娘",
+    "src": "_covers_final/dessert/芋泥雪媚娘/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "dessert",
+    "name": "英式司康",
+    "src": "_covers_final/dessert/英式司康/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "dessert",
+    "name": "草莓冰淇淋",
+    "src": "_covers_final/dessert/草莓冰淇淋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "dessert",
+    "name": "酸奶意式奶冻",
+    "src": "_covers_final/dessert/酸奶意式奶冻/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "dessert",
+    "name": "雪花酥",
+    "src": "_covers_final/dessert/雪花酥/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "dessert",
+    "name": "魔芋蛋糕",
+    "src": "_covers_final/dessert/魔芋蛋糕/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "dessert",
+    "name": "龟苓膏",
+    "src": "_covers_final/dessert/龟苓膏/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "drink",
+    "name": "B52轰炸机",
+    "src": "_covers_final/drink/B52轰炸机/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "drink",
+    "name": "Mojito莫吉托",
+    "src": "_covers_final/drink/Mojito莫吉托/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "drink",
+    "name": "冬瓜茶",
+    "src": "_covers_final/drink/冬瓜茶/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "drink",
+    "name": "冰粉",
+    "src": "_covers_final/drink/冰粉/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "drink",
+    "name": "印度奶茶",
+    "src": "_covers_final/drink/印度奶茶/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "drink",
+    "name": "可乐桶",
+    "src": "_covers_final/drink/可乐桶/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "drink",
+    "name": "奇异果菠菜特调",
+    "src": "_covers_final/drink/奇异果菠菜特调/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "drink",
+    "name": "奶茶",
+    "src": "_covers_final/drink/奶茶/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "drink",
+    "name": "杨枝甘露",
+    "src": "_covers_final/drink/杨枝甘露/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "drink",
+    "name": "柠檬水",
+    "src": "_covers_final/drink/柠檬水/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "drink",
+    "name": "泰国手标红茶",
+    "src": "_covers_final/drink/泰国手标红茶/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "drink",
+    "name": "海边落日",
+    "src": "_covers_final/drink/海边落日/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "drink",
+    "name": "牛油果拉西",
+    "src": "_covers_final/drink/牛油果拉西/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "drink",
+    "name": "百香果橙子特调",
+    "src": "_covers_final/drink/百香果橙子特调/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "drink",
+    "name": "砂糖椰子冰沙",
+    "src": "_covers_final/drink/砂糖椰子冰沙/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "drink",
+    "name": "耙耙柑茶",
+    "src": "_covers_final/drink/耙耙柑茶/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "drink",
+    "name": "菠萝咖啡特调",
+    "src": "_covers_final/drink/菠萝咖啡特调/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "drink",
+    "name": "酒酿醪糟",
+    "src": "_covers_final/drink/酒酿醪糟/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "drink",
+    "name": "酸梅汤",
+    "src": "_covers_final/drink/酸梅汤/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "drink",
+    "name": "酸梅汤（半成品加工）",
+    "src": "_covers_final/drink/酸梅汤（半成品加工）/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "drink",
+    "name": "金汤力",
+    "src": "_covers_final/drink/金汤力/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "drink",
+    "name": "金菲士",
+    "src": "_covers_final/drink/金菲士/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "drink",
+    "name": "长岛冰茶",
+    "src": "_covers_final/drink/长岛冰茶/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "乡村啤酒鸭",
+    "src": "_covers_final/meat_dish/乡村啤酒鸭/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "meat_dish",
+    "name": "农家一碗香",
+    "src": "_covers_final/meat_dish/农家一碗香/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "冬瓜酿肉",
+    "src": "_covers_final/meat_dish/冬瓜酿肉/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "meat_dish",
+    "name": "冷吃兔",
+    "src": "_covers_final/meat_dish/冷吃兔/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "meat_dish",
+    "name": "凉拌鸡丝",
+    "src": "_covers_final/meat_dish/凉拌鸡丝/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "卤菜",
+    "src": "_covers_final/meat_dish/卤菜/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "口水鸡",
+    "src": "_covers_final/meat_dish/口水鸡/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "可乐鸡翅",
+    "src": "_covers_final/meat_dish/可乐鸡翅/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "meat_dish",
+    "name": "台式卤肉饭",
+    "src": "_covers_final/meat_dish/台式卤肉饭/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "meat_dish",
+    "name": "咕噜肉",
+    "src": "_covers_final/meat_dish/咕噜肉/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "咖喱肥牛",
+    "src": "_covers_final/meat_dish/咖喱肥牛/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "商芝肉",
+    "src": "_covers_final/meat_dish/商芝肉/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "meat_dish",
+    "name": "啤酒鸭",
+    "src": "_covers_final/meat_dish/啤酒鸭/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "回锅肉",
+    "src": "_covers_final/meat_dish/回锅肉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "土豆炖排骨",
+    "src": "_covers_final/meat_dish/土豆炖排骨/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "奥尔良风味烤鸡腿",
+    "src": "_covers_final/meat_dish/奥尔良风味烤鸡腿/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "奶酪培根通心粉",
+    "src": "_covers_final/meat_dish/奶酪培根通心粉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "姜炒鸡",
+    "src": "_covers_final/meat_dish/姜炒鸡/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "姜葱捞鸡",
+    "src": "_covers_final/meat_dish/姜葱捞鸡/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "meat_dish",
+    "name": "孜然牛肉",
+    "src": "_covers_final/meat_dish/孜然牛肉/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "宫保鸡丁",
+    "src": "_covers_final/meat_dish/宫保鸡丁/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "小炒肉",
+    "src": "_covers_final/meat_dish/小炒肉/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "小炒鸡肝",
+    "src": "_covers_final/meat_dish/小炒鸡肝/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "小炒黄牛肉",
+    "src": "_covers_final/meat_dish/小炒黄牛肉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "小米辣炒肉",
+    "src": "_covers_final/meat_dish/小米辣炒肉/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "小酥肉",
+    "src": "_covers_final/meat_dish/小酥肉/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "尖叫牛蛙",
+    "src": "_covers_final/meat_dish/尖叫牛蛙/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "尖椒炒牛肉",
+    "src": "_covers_final/meat_dish/尖椒炒牛肉/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "山西过油肉",
+    "src": "_covers_final/meat_dish/山西过油肉/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "巴基斯坦牛肉咖喱",
+    "src": "_covers_final/meat_dish/巴基斯坦牛肉咖喱/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "带把肘子",
+    "src": "_covers_final/meat_dish/带把肘子/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "干煸仔鸡",
+    "src": "_covers_final/meat_dish/干煸仔鸡/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "广式萝卜牛腩",
+    "src": "_covers_final/meat_dish/广式萝卜牛腩/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "徽派红烧肉",
+    "src": "_covers_final/meat_dish/徽派红烧肉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "意式烤鸡",
+    "src": "_covers_final/meat_dish/意式烤鸡/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "新疆大盘鸡",
+    "src": "_covers_final/meat_dish/新疆大盘鸡/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "无骨鸡爪",
+    "src": "_covers_final/meat_dish/无骨鸡爪/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "杀猪菜",
+    "src": "_covers_final/meat_dish/杀猪菜/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "枝竹羊腩煲",
+    "src": "_covers_final/meat_dish/枝竹羊腩煲/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "柱候牛腩",
+    "src": "_covers_final/meat_dish/柱候牛腩/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "桂林十八酿",
+    "src": "_covers_final/meat_dish/桂林十八酿/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "梅菜扣肉",
+    "src": "_covers_final/meat_dish/梅菜扣肉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "椒盐排条",
+    "src": "_covers_final/meat_dish/椒盐排条/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "水煮牛肉",
+    "src": "_covers_final/meat_dish/水煮牛肉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "水煮肉片",
+    "src": "_covers_final/meat_dish/水煮肉片/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "洋葱炒猪肉",
+    "src": "_covers_final/meat_dish/洋葱炒猪肉/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "淄博烧烤",
+    "src": "_covers_final/meat_dish/淄博烧烤/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "清蒸鳜鱼",
+    "src": "_covers_final/meat_dish/清蒸鳜鱼/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "湖南家常红烧肉",
+    "src": "_covers_final/meat_dish/湖南家常红烧肉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "湘祁米夫鸭",
+    "src": "_covers_final/meat_dish/湘祁米夫鸭/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "澳门湿版免治牛肉饭",
+    "src": "_covers_final/meat_dish/澳门湿版免治牛肉饭/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "烤鸡翅",
+    "src": "_covers_final/meat_dish/烤鸡翅/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "煎烤羊排",
+    "src": "_covers_final/meat_dish/煎烤羊排/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "牛排",
+    "src": "_covers_final/meat_dish/牛排/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "猪皮冻",
+    "src": "_covers_final/meat_dish/猪皮冻/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "猪肉烩酸菜",
+    "src": "_covers_final/meat_dish/猪肉烩酸菜/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "甜辣烤全翅",
+    "src": "_covers_final/meat_dish/甜辣烤全翅/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "田螺酿",
+    "src": "_covers_final/meat_dish/田螺酿/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "meat_dish",
+    "name": "番茄红酱",
+    "src": "_covers_final/meat_dish/番茄红酱/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "瘦肉土豆片",
+    "src": "_covers_final/meat_dish/瘦肉土豆片/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "白菜猪肉炖粉条",
+    "src": "_covers_final/meat_dish/白菜猪肉炖粉条/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "空气炸锅脆皮现腌炸鸡",
+    "src": "_covers_final/meat_dish/空气炸锅脆皮现腌炸鸡/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "粉蒸肉",
+    "src": "_covers_final/meat_dish/粉蒸肉/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "糖醋排骨",
+    "src": "_covers_final/meat_dish/糖醋排骨/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "糖醋里脊",
+    "src": "_covers_final/meat_dish/糖醋里脊/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "红烧猪蹄",
+    "src": "_covers_final/meat_dish/红烧猪蹄/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "红烧鸡翅",
+    "src": "_covers_final/meat_dish/红烧鸡翅/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "羊排焖面",
+    "src": "_covers_final/meat_dish/羊排焖面/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "老妈蹄花",
+    "src": "_covers_final/meat_dish/老妈蹄花/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "老式锅包肉",
+    "src": "_covers_final/meat_dish/老式锅包肉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "肉饼炖蛋",
+    "src": "_covers_final/meat_dish/肉饼炖蛋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "腐乳肉",
+    "src": "_covers_final/meat_dish/腐乳肉/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "芥末罗氏虾",
+    "src": "_covers_final/meat_dish/芥末罗氏虾/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "茭白炒肉",
+    "src": "_covers_final/meat_dish/茭白炒肉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "荔枝肉",
+    "src": "_covers_final/meat_dish/荔枝肉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "荷兰豆炒腊肠",
+    "src": "_covers_final/meat_dish/荷兰豆炒腊肠/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "萝卜炖羊排",
+    "src": "_covers_final/meat_dish/萝卜炖羊排/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "葱烧鸡腿",
+    "src": "_covers_final/meat_dish/葱烧鸡腿/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "蒜苔炒肉末",
+    "src": "_covers_final/meat_dish/蒜苔炒肉末/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "虎皮肘子",
+    "src": "_covers_final/meat_dish/虎皮肘子/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "meat_dish",
+    "name": "蚂蚁上树",
+    "src": "_covers_final/meat_dish/蚂蚁上树/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "血浆鸭",
+    "src": "_covers_final/meat_dish/血浆鸭/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "西红柿土豆炖牛肉",
+    "src": "_covers_final/meat_dish/西红柿土豆炖牛肉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "西红柿牛腩",
+    "src": "_covers_final/meat_dish/西红柿牛腩/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "豆豉鲮鱼油麦菜",
+    "src": "_covers_final/meat_dish/豆豉鲮鱼油麦菜/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "豉汁排骨",
+    "src": "_covers_final/meat_dish/豉汁排骨/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "豉汁蒸白鱔",
+    "src": "_covers_final/meat_dish/豉汁蒸白鱔/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "贵州辣子鸡",
+    "src": "_covers_final/meat_dish/贵州辣子鸡/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "辣椒炒肉",
+    "src": "_covers_final/meat_dish/辣椒炒肉/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "酱排骨",
+    "src": "_covers_final/meat_dish/酱排骨/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "酱牛肉",
+    "src": "_covers_final/meat_dish/酱牛肉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "醉排骨",
+    "src": "_covers_final/meat_dish/醉排骨/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "青椒土豆炒肉",
+    "src": "_covers_final/meat_dish/青椒土豆炒肉/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "青椒酿",
+    "src": "_covers_final/meat_dish/青椒酿/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "香干肉丝",
+    "src": "_covers_final/meat_dish/香干肉丝/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "香干芹菜炒肉",
+    "src": "_covers_final/meat_dish/香干芹菜炒肉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "香煎五花肉",
+    "src": "_covers_final/meat_dish/香煎五花肉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "香菇滑鸡",
+    "src": "_covers_final/meat_dish/香菇滑鸡/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "香辣鸡爪煲",
+    "src": "_covers_final/meat_dish/香辣鸡爪煲/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "鱼香肉丝",
+    "src": "_covers_final/meat_dish/鱼香肉丝/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "鱼香茄子",
+    "src": "_covers_final/meat_dish/鱼香茄子/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "麻婆豆腐",
+    "src": "_covers_final/meat_dish/麻婆豆腐/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "麻辣香锅",
+    "src": "_covers_final/meat_dish/麻辣香锅/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "黄油鸡",
+    "src": "_covers_final/meat_dish/黄油鸡/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "黄焖鸡",
+    "src": "_covers_final/meat_dish/黄焖鸡/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "黄瓜炒肉",
+    "src": "_covers_final/meat_dish/黄瓜炒肉/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "meat_dish",
+    "name": "黑椒牛柳",
+    "src": "_covers_final/meat_dish/黑椒牛柳/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "meat_dish",
+    "name": "黔式腊肠娃娃菜",
+    "src": "_covers_final/meat_dish/黔式腊肠娃娃菜/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "semi-finished",
+    "name": "凉皮",
+    "src": "_covers_final/semi-finished/凉皮/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "semi-finished",
+    "name": "半成品意面",
+    "src": "_covers_final/semi-finished/半成品意面/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "semi-finished",
+    "name": "懒人蛋挞",
+    "src": "_covers_final/semi-finished/懒人蛋挞/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "semi-finished",
+    "name": "炸薯条",
+    "src": "_covers_final/semi-finished/炸薯条/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "semi-finished",
+    "name": "牛油火锅底料",
+    "src": "_covers_final/semi-finished/牛油火锅底料/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "semi-finished",
+    "name": "空气炸锅羊排",
+    "src": "_covers_final/semi-finished/空气炸锅羊排/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "semi-finished",
+    "name": "空气炸锅鸡翅中",
+    "src": "_covers_final/semi-finished/空气炸锅鸡翅中/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "semi-finished",
+    "name": "速冻水饺",
+    "src": "_covers_final/semi-finished/速冻水饺/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "semi-finished",
+    "name": "速冻汤圆",
+    "src": "_covers_final/semi-finished/速冻汤圆/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "semi-finished",
+    "name": "速冻馄饨",
+    "src": "_covers_final/semi-finished/速冻馄饨/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "soup",
+    "name": "勾芡香菇汤",
+    "src": "_covers_final/soup/勾芡香菇汤/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "soup",
+    "name": "奶油蘑菇汤",
+    "src": "_covers_final/soup/奶油蘑菇汤/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "soup",
+    "name": "小米粥",
+    "src": "_covers_final/soup/小米粥/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "soup",
+    "name": "排骨山药玉米汤",
+    "src": "_covers_final/soup/排骨山药玉米汤/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "soup",
+    "name": "排骨苦瓜汤",
+    "src": "_covers_final/soup/排骨苦瓜汤/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "soup",
+    "name": "昂刺鱼豆腐汤",
+    "src": "_covers_final/soup/昂刺鱼豆腐汤/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "soup",
+    "name": "朱雀汤",
+    "src": "_covers_final/soup/朱雀汤/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "soup",
+    "name": "玉米排骨汤",
+    "src": "_covers_final/soup/玉米排骨汤/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "soup",
+    "name": "生汆丸子汤",
+    "src": "_covers_final/soup/生汆丸子汤/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "soup",
+    "name": "番茄牛肉蛋花汤",
+    "src": "_covers_final/soup/番茄牛肉蛋花汤/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "soup",
+    "name": "皮蛋瘦肉粥",
+    "src": "_covers_final/soup/皮蛋瘦肉粥/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "soup",
+    "name": "米粥",
+    "src": "_covers_final/soup/米粥/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "soup",
+    "name": "紫菜蛋花汤",
+    "src": "_covers_final/soup/紫菜蛋花汤/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "soup",
+    "name": "罗宋汤",
+    "src": "_covers_final/soup/罗宋汤/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "soup",
+    "name": "羊肉汤",
+    "src": "_covers_final/soup/羊肉汤/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "soup",
+    "name": "腊八粥",
+    "src": "_covers_final/soup/腊八粥/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "soup",
+    "name": "菌菇炖乳鸽",
+    "src": "_covers_final/soup/菌菇炖乳鸽/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "soup",
+    "name": "西红柿鸡蛋汤",
+    "src": "_covers_final/soup/西红柿鸡蛋汤/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "soup",
+    "name": "金针菇汤",
+    "src": "_covers_final/soup/金针菇汤/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "soup",
+    "name": "银耳莲子粥",
+    "src": "_covers_final/soup/银耳莲子粥/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "soup",
+    "name": "陈皮排骨汤",
+    "src": "_covers_final/soup/陈皮排骨汤/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "soup",
+    "name": "陈皮排骨汤",
+    "src": "_covers_final/soup/陈皮排骨汤/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "soup",
+    "name": "黄瓜皮蛋汤",
+    "src": "_covers_final/soup/黄瓜皮蛋汤/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "中式馅饼",
+    "src": "_covers_final/staple/中式馅饼/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "凉粉",
+    "src": "_covers_final/staple/凉粉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "利提巧卡",
+    "src": "_covers_final/staple/利提巧卡/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "印度烤饼",
+    "src": "_covers_final/staple/印度烤饼/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "印度焖饭",
+    "src": "_covers_final/staple/印度焖饭/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "可乐炒饭",
+    "src": "_covers_final/staple/可乐炒饭/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "咸肉菜饭",
+    "src": "_covers_final/staple/咸肉菜饭/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "基础牛奶面包",
+    "src": "_covers_final/staple/基础牛奶面包/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "微波炉腊肠煲仔饭",
+    "src": "_covers_final/staple/微波炉腊肠煲仔饭/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "意式肉酱面",
+    "src": "_covers_final/staple/意式肉酱面/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "手工水饺",
+    "src": "_covers_final/staple/手工水饺/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "扬州炒饭",
+    "src": "_covers_final/staple/扬州炒饭/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "披萨饼皮",
+    "src": "_covers_final/staple/披萨饼皮/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "日式咖喱饭",
+    "src": "_covers_final/staple/日式咖喱饭/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "日式肥牛丼饭",
+    "src": "_covers_final/staple/日式肥牛丼饭/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "汤面",
+    "src": "_covers_final/staple/汤面/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "河南蒸面条",
+    "src": "_covers_final/staple/河南蒸面条/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "火腿饭团",
+    "src": "_covers_final/staple/火腿饭团/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "炒凉粉",
+    "src": "_covers_final/staple/炒凉粉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "炒年糕",
+    "src": "_covers_final/staple/炒年糕/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "炒意大利面",
+    "src": "_covers_final/staple/炒意大利面/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "炒方便面",
+    "src": "_covers_final/staple/炒方便面/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "炒河粉",
+    "src": "_covers_final/staple/炒河粉/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "炒馍",
+    "src": "_covers_final/staple/炒馍/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "staple",
+    "name": "炸酱面",
+    "src": "_covers_final/staple/炸酱面/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "烙饼",
+    "src": "_covers_final/staple/烙饼/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "热干面",
+    "src": "_covers_final/staple/热干面/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "staple",
+    "name": "照烧鸡腿饭",
+    "src": "_covers_final/staple/照烧鸡腿饭/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "煮泡面加蛋",
+    "src": "_covers_final/staple/煮泡面加蛋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "猪油拌饭",
+    "src": "_covers_final/staple/猪油拌饭/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "电饭煲三文鱼炊饭",
+    "src": "_covers_final/staple/电饭煲三文鱼炊饭/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "空气炸锅照烧鸡饭",
+    "src": "_covers_final/staple/空气炸锅照烧鸡饭/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "红芸豆拌饭",
+    "src": "_covers_final/staple/红芸豆拌饭/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "老友猪肉粉",
+    "src": "_covers_final/staple/老友猪肉粉/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "老干妈拌面",
+    "src": "_covers_final/staple/老干妈拌面/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "肉蛋盖饭",
+    "src": "_covers_final/staple/肉蛋盖饭/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "茄子肉煎饼",
+    "src": "_covers_final/staple/茄子肉煎饼/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "葱油拌面",
+    "src": "_covers_final/staple/葱油拌面/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "蒸卤面",
+    "src": "_covers_final/staple/蒸卤面/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "staple",
+    "name": "蛋包饭",
+    "src": "_covers_final/staple/蛋包饭/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "蛋炒饭",
+    "src": "_covers_final/staple/蛋炒饭/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "螺蛳粉",
+    "src": "_covers_final/staple/螺蛳粉/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "西红柿鸡蛋挂面",
+    "src": "_covers_final/staple/西红柿鸡蛋挂面/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "豆角焖面",
+    "src": "_covers_final/staple/豆角焖面/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "酱拌荞麦面",
+    "src": "_covers_final/staple/酱拌荞麦面/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "酸辣蕨根粉",
+    "src": "_covers_final/staple/酸辣蕨根粉/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "staple",
+    "name": "醪糟小汤圆",
+    "src": "_covers_final/staple/醪糟小汤圆/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "staple",
+    "name": "陕西油泼面",
+    "src": "_covers_final/staple/陕西油泼面/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "韩式拌饭",
+    "src": "_covers_final/staple/韩式拌饭/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "韭菜盒子",
+    "src": "_covers_final/staple/韭菜盒子/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "鲜肉烧卖",
+    "src": "_covers_final/staple/鲜肉烧卖/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "鲣鱼海苔玉米饭",
+    "src": "_covers_final/staple/鲣鱼海苔玉米饭/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "staple",
+    "name": "鹰嘴豆炸饼",
+    "src": "_covers_final/staple/鹰嘴豆炸饼/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "麻油拌面",
+    "src": "_covers_final/staple/麻油拌面/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "staple",
+    "name": "麻辣减脂荞麦面",
+    "src": "_covers_final/staple/麻辣减脂荞麦面/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "上汤娃娃菜",
+    "src": "_covers_final/vegetable_dish/上汤娃娃菜/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "乾隆白菜",
+    "src": "_covers_final/vegetable_dish/乾隆白菜/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "凉拌木耳",
+    "src": "_covers_final/vegetable_dish/凉拌木耳/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "凉拌油麦菜",
+    "src": "_covers_final/vegetable_dish/凉拌油麦菜/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "凉拌莴笋",
+    "src": "_covers_final/vegetable_dish/凉拌莴笋/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "凉拌豆腐",
+    "src": "_covers_final/vegetable_dish/凉拌豆腐/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "凉拌金针菇",
+    "src": "_covers_final/vegetable_dish/凉拌金针菇/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "凉拌黄瓜",
+    "src": "_covers_final/vegetable_dish/凉拌黄瓜/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "包菜炒鸡蛋粉丝",
+    "src": "_covers_final/vegetable_dish/包菜炒鸡蛋粉丝/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "印度土豆花菜",
+    "src": "_covers_final/vegetable_dish/印度土豆花菜/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "印度葫芦丸子",
+    "src": "_covers_final/vegetable_dish/印度葫芦丸子/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "地三鲜",
+    "src": "_covers_final/vegetable_dish/地三鲜/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "家常日本豆腐",
+    "src": "_covers_final/vegetable_dish/家常日本豆腐/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "小炒藕丁",
+    "src": "_covers_final/vegetable_dish/小炒藕丁/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "干锅花菜",
+    "src": "_covers_final/vegetable_dish/干锅花菜/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "手撕包菜",
+    "src": "_covers_final/vegetable_dish/手撕包菜/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "拔丝土豆",
+    "src": "_covers_final/vegetable_dish/拔丝土豆/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "松仁玉米",
+    "src": "_covers_final/vegetable_dish/松仁玉米/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "椒盐玉米",
+    "src": "_covers_final/vegetable_dish/椒盐玉米/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "榄菜肉末四季豆",
+    "src": "_covers_final/vegetable_dish/榄菜肉末四季豆/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "水油焖蔬菜",
+    "src": "_covers_final/vegetable_dish/水油焖蔬菜/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "油醋爆蛋",
+    "src": "_covers_final/vegetable_dish/油醋爆蛋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "洋葱炒鸡蛋",
+    "src": "_covers_final/vegetable_dish/洋葱炒鸡蛋/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "清炒花菜",
+    "src": "_covers_final/vegetable_dish/清炒花菜/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "清蒸南瓜",
+    "src": "_covers_final/vegetable_dish/清蒸南瓜/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "炒滑蛋",
+    "src": "_covers_final/vegetable_dish/炒滑蛋/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "炒茄子",
+    "src": "_covers_final/vegetable_dish/炒茄子/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "炒青菜",
+    "src": "_covers_final/vegetable_dish/炒青菜/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "烤茄子",
+    "src": "_covers_final/vegetable_dish/烤茄子/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "白灼菜心",
+    "src": "_covers_final/vegetable_dish/白灼菜心/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "皮蛋豆腐",
+    "src": "_covers_final/vegetable_dish/皮蛋豆腐/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "糖拌西红柿",
+    "src": "_covers_final/vegetable_dish/糖拌西红柿/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "素炒豆角",
+    "src": "_covers_final/vegetable_dish/素炒豆角/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "红烧冬瓜",
+    "src": "_covers_final/vegetable_dish/红烧冬瓜/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "红烧茄子",
+    "src": "_covers_final/vegetable_dish/红烧茄子/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "脆皮豆腐",
+    "src": "_covers_final/vegetable_dish/脆皮豆腐/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "芹菜拌茶树菇",
+    "src": "_covers_final/vegetable_dish/芹菜拌茶树菇/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "茄子炖土豆",
+    "src": "_covers_final/vegetable_dish/茄子炖土豆/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "莴笋叶煎饼",
+    "src": "_covers_final/vegetable_dish/莴笋叶煎饼/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "菠菜炒鸡蛋",
+    "src": "_covers_final/vegetable_dish/菠菜炒鸡蛋/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "葱煎豆腐",
+    "src": "_covers_final/vegetable_dish/葱煎豆腐/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "蒜蓉炒芹菜",
+    "src": "_covers_final/vegetable_dish/蒜蓉炒芹菜/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "蒜蓉空心菜",
+    "src": "_covers_final/vegetable_dish/蒜蓉空心菜/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "蒜蓉西兰花",
+    "src": "_covers_final/vegetable_dish/蒜蓉西兰花/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "蒲烧茄子",
+    "src": "_covers_final/vegetable_dish/蒲烧茄子/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "虎皮青椒",
+    "src": "_covers_final/vegetable_dish/虎皮青椒/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "蚝油三鲜菇",
+    "src": "_covers_final/vegetable_dish/蚝油三鲜菇/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "蚝油生菜",
+    "src": "_covers_final/vegetable_dish/蚝油生菜/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "西红柿炒鸡蛋",
+    "src": "_covers_final/vegetable_dish/西红柿炒鸡蛋/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "西红柿豆腐汤羹",
+    "src": "_covers_final/vegetable_dish/西红柿豆腐汤羹/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "西葫芦炒鸡蛋",
+    "src": "_covers_final/vegetable_dish/西葫芦炒鸡蛋/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "话梅煮毛豆",
+    "src": "_covers_final/vegetable_dish/话梅煮毛豆/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "酸辣土豆丝",
+    "src": "_covers_final/vegetable_dish/酸辣土豆丝/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "金针菇日本豆腐煲",
+    "src": "_covers_final/vegetable_dish/金针菇日本豆腐煲/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "金钱蛋",
+    "src": "_covers_final/vegetable_dish/金钱蛋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "陕北熬豆角",
+    "src": "_covers_final/vegetable_dish/陕北熬豆角/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "雷椒皮蛋",
+    "src": "_covers_final/vegetable_dish/雷椒皮蛋/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "韭菜炒蛋",
+    "src": "_covers_final/vegetable_dish/韭菜炒蛋/cover.jpg",
+    "source": "pexels"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "鸡蛋火腿炒黄瓜",
+    "src": "_covers_final/vegetable_dish/鸡蛋火腿炒黄瓜/cover.jpg",
+    "source": "aigc"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "鸡蛋羹",
+    "src": "_covers_final/vegetable_dish/鸡蛋羹/cover.jpg",
+    "source": "real"
+  },
+  {
+    "category": "vegetable_dish",
+    "name": "鸡蛋花",
+    "src": "_covers_final/vegetable_dish/鸡蛋花/cover.jpg",
+    "source": "pexels"
+  }
+]
